@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://sjwind.github.io/sitemap.xml
+Host: https://sjwind.github.io
