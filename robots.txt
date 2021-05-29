@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://sjwind.github.io/sitemap.xml
-Host: https://sjwind.github.io
+Sitemap: https://tech.richwind.co.kr/sitemap.xml
+Host: https://tech.richwind.co.kr
