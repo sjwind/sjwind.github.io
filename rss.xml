@@ -1,4 +1,174 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[IT Tech Blog | Feed]]></title><description><![CDATA[IT Tech Blog for Data Sicentists. It deals with Data Science and machine learning, and Python. We are also concering about frontend such as javascript, react, react-native, and so on.]]></description><link>https://tech.richwind.co.kr</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 May 2021 06:55:28 GMT</lastBuildDate><item><title><![CDATA[gatsby 2]]></title><description><![CDATA[블로그 만들기 2 Github Page와 Gatsby를 이용한 Blog를 운영할 때, 예상치 못한 현상들이 지속 발견 되고 있다. 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[IT Tech Blog | Feed]]></title><description><![CDATA[IT Tech Blog for Data Sicentists. It deals with Data Science and machine learning, and Python. We are also concering about frontend such as javascript, react, react-native, and so on.]]></description><link>https://tech.richwind.co.kr</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 May 2021 07:21:59 GMT</lastBuildDate><item><title><![CDATA[개츠비(Gatsby)로 블로그 만들기 1]]></title><description><![CDATA[Gatsby 블로그 만들기 1  시리즈 및 연재글 작성 템플릿 연재글을 작성할 때에는 동일 폴더에  형태로 파일명을 지정한다. 
+추후 Static Generation…]]></description><link>https://tech.richwind.co.kr/gatsbyBlog_1/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlog_1/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gatsby-블로그-만들기-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1&quot; aria-label=&quot;gatsby 블로그 만들기 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby 블로그 만들기 1&lt;/h1&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6aba664d13c4c6b19b085d124edd3d35/75d76/gatsbyCover.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.6875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsSAAALEgHS3X78AAAAw0lEQVQY05WPzQqCQBSF52l7mtr6Aq4iVxW0bRURZb9GJf1MxaBoJgWKM87cRiuzKMizuNx74TuHg+CXBAgh3j/p6Tnge0CpXBGPBRRSFIIxgGEXwgBtJrbg4mmdLBb2q+XOwXSW5sJ1XYwxIYQx9gqnEUz7oHfQqL1bj607z9Mpz0qpMe/tm626VtNUVVUURVpk7okYBUNH13Mo+ZVOeMyztlHAINdGxn72T3kk58ULtjP7aJ6goFDOKP5i/w9ckHroBtaizl/Y39VCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Gatsby Thumbnail Image&quot;
+        title=&quot;Gatsby Thumbnail Image&quot;
+        src=&quot;/static/6aba664d13c4c6b19b085d124edd3d35/799d3/gatsbyCover.png&quot;
+        srcset=&quot;/static/6aba664d13c4c6b19b085d124edd3d35/00d96/gatsbyCover.png 148w,
+/static/6aba664d13c4c6b19b085d124edd3d35/0b23c/gatsbyCover.png 295w,
+/static/6aba664d13c4c6b19b085d124edd3d35/799d3/gatsbyCover.png 590w,
+/static/6aba664d13c4c6b19b085d124edd3d35/2a3d6/gatsbyCover.png 885w,
+/static/6aba664d13c4c6b19b085d124edd3d35/ae92f/gatsbyCover.png 1180w,
+/static/6aba664d13c4c6b19b085d124edd3d35/75d76/gatsbyCover.png 1600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;시리즈-및-연재글-작성-템플릿&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%9C%EB%A6%AC%EC%A6%88-%EB%B0%8F-%EC%97%B0%EC%9E%AC%EA%B8%80-%EC%9E%91%EC%84%B1-%ED%85%9C%ED%94%8C%EB%A6%BF&quot; aria-label=&quot;시리즈 및 연재글 작성 템플릿 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;시리즈 및 연재글 작성 템플릿&lt;/h1&gt;
+&lt;p&gt;연재글을 작성할 때에는 동일 폴더에 &lt;code class=&quot;language-text&quot;&gt;동일한 이름_숫자.md&lt;/code&gt; 형태로 파일명을 지정한다.
+추후 Static Generation 과정에서 마지막&lt;code class=&quot;language-text&quot;&gt;_&lt;/code&gt;를 제외하고 동일한 이름은 연재글로 간주한다.
+연재글의 경우 우측 상단에 연관된 글에 대한 리스트를 제공한다. &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; block에 &lt;code class=&quot;language-text&quot;&gt;라인넘버&lt;/code&gt;를 표기 하기 위해서는, &lt;code class=&quot;language-text&quot;&gt;prismjs&lt;/code&gt;의 옵션을 변경하여 준다.
+일반적으로 &lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; block에서 언어를 인지하기 위해 작은따옴표3개 뒤에 다음과 언어를 표기해 준다.
+이 언어 뒤에 중괄호&lt;code class=&quot;language-text&quot;&gt;{,}&lt;/code&gt;를 사용하여 강조하는 라인을 지정할 수 있다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;javascript{강조 라인1, 강조라인2}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;다음은 일반적인 코드 블럭이다. 기본적으로 prism highlight가 적용되어 있다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;App&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// This is a comment!&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;I am returning a string&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;다음은 1,3라인을 강조한 결과이다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;App&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;// This is a comment!&lt;/span&gt;
+&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;I am returning a string&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;npm-패키지-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#npm-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;npm 패키지 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;npm 패키지 설치&lt;/h1&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install &amp;lt;package name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;install&lt;/code&gt; 대신 &lt;code class=&quot;language-text&quot;&gt;i&lt;/code&gt;를 사용할 수 있다.  &lt;code class=&quot;language-text&quot;&gt;npm -i &amp;lt;package name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;options&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#options&quot; aria-label=&quot;options permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;options&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;--save-dev&lt;/code&gt; : 개발환경에서만 사용(&lt;code class=&quot;language-text&quot;&gt;-D&lt;/code&gt; 옵션과 동일). &lt;code class=&quot;language-text&quot;&gt;npm i -D &amp;lt;pakcage name&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;--global&lt;/code&gt; : 콘솔에서 명령어 처럼 동작 (&lt;code class=&quot;language-text&quot;&gt;-g&lt;/code&gt; 옵션과 동일)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;github&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#github&quot; aria-label=&quot;github permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;github&lt;/h1&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ npm install gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;대부분의 gatsby의 theme에는 이미 적용이 &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; 되어 있다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// package.json
+&amp;quot;deploy&amp;quot;: &amp;quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -b master&amp;quot;,&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ git remote add origin https://github.com/sjwind/sjwind.github.io.git
+$ git add .
+$ git checkout -b develop
+$ git commit -m &amp;quot;first commit&amp;quot;
+$ npm run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이런 에러가 발생할 수 도 있다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;remote: Invalid username or password.
+fatal: Authentication failed for &amp;#39;https://github.com/sjwind/sjwind.github.io.git/&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Online Jupyter Notebook for Python]]></title><description><![CDATA[Online Jupyter Notebook for Python Google Colab vs. MS Azure Notebook vs. Binder Online 환경에서 데이터 분석을 진행할 수 있는 대표적인 플랫폼을 비교/평가 해 보았다.  Google…]]></description><link>https://tech.richwind.co.kr/Online Jupyter Notebook for Python/</link><guid isPermaLink="false">https://tech.richwind.co.kr/Online Jupyter Notebook for Python/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;online-jupyter-notebook-for-python&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#online-jupyter-notebook-for-python&quot; aria-label=&quot;online jupyter notebook for python permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Online Jupyter Notebook for Python&lt;/h1&gt;
+&lt;h2 id=&quot;google-colab-vs-ms-azure-notebook-vs-binder&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#google-colab-vs-ms-azure-notebook-vs-binder&quot; aria-label=&quot;google colab vs ms azure notebook vs binder permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Google Colab vs. MS Azure Notebook vs. Binder&lt;/h2&gt;
+&lt;p&gt;Online 환경에서 데이터 분석을 진행할 수 있는 대표적인 플랫폼을 비교/평가 해 보았다. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Google Colab&lt;/li&gt;
+&lt;li&gt;MS Azure Notebook&lt;/li&gt;
+&lt;li&gt;Binder&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;다양한 측면에서 비교를 할 수 있지만, 진정으로 크리티컬한 부분에서 놓칠 수 없는 비교점이 있다. &lt;/p&gt;
+&lt;h2 id=&quot;google-colab&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#google-colab&quot; aria-label=&quot;google colab permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Google Colab&lt;/h2&gt;
+&lt;p&gt;제공되는 리소스는 &lt;code class=&quot;language-text&quot;&gt;2 CPU, 12G Mem 할당&lt;/code&gt; 으로 상당히 준수하다. 게다가 GPU를 제공해 주고 있어서, GPU 모드로 ML 연산을 계산할 수 있다. &lt;/p&gt;
+&lt;p&gt;Google Colab에서 제공하는 리소스 스펙&lt;/p&gt;
+&lt;p&gt;CPU 스펙&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!cat &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;proc&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cpuinfo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;processor	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+vendor_id	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; GenuineIntel
+cpu family	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
+model		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;79&lt;/span&gt;
+model name	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Intel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Xeon&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; CPU @ &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;20GHz
+stepping	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+microcode	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0x1&lt;/span&gt;
+cpu MHz		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2200.000&lt;/span&gt;
+cache size	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56320&lt;/span&gt; KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Memory 스펙&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!free &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;              total        used        free      shared  buff&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cache   available
+Mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            12G        &lt;span class=&quot;token number&quot;&gt;3.&lt;/span&gt;0G        &lt;span class=&quot;token number&quot;&gt;7.&lt;/span&gt;4G        908K        &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;3G         11G
+Swap&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;장점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%A5%EC%A0%90&quot; aria-label=&quot;장점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;장점&lt;/h3&gt;
+&lt;p&gt;웹환경에서 실행하여줌에도 불구하고, GPU를 지원해줌&lt;/p&gt;
+&lt;p&gt;ML을 구동시키기에 적당함&lt;/p&gt;
+&lt;h3 id=&quot;단점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8B%A8%EC%A0%90&quot; aria-label=&quot;단점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;단점&lt;/h3&gt;
+&lt;p&gt;UI가 몹시 레거시함&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/Users/audit01/Library/Application%20Support/typora-user-images/image-20200515152247703.png&quot; alt=&quot;image-20200515152247703&quot;&gt;&lt;/p&gt;
+&lt;p&gt;개인차이가 있을 수 있겠으나, UI 좀 덜 아름답다. 뭔가 과거의 파워빌더(PowerBuilder)를 보는 느낌이랄까?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://k.kakaocdn.net/dn/ca9bkW/btqEcnRjWTI/KRiP5gdMZI9ILBK8KEBDF0/img.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+&lt;p&gt;실행할 때 마다 차이가 존재한다. 2~3번째 실행 할 때는 1.83초&lt;/p&gt;
+&lt;h2 id=&quot;microsoft-azure-notebook&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#microsoft-azure-notebook&quot; aria-label=&quot;microsoft azure notebook permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Microsoft Azure Notebook&lt;/h2&gt;
+&lt;p&gt;MS Azure Notebook의 제공되는 리소스의 스펙&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!cat &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;proc&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cpuinfo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;processor	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+vendor_id	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; GenuineIntel
+cpu family	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
+model		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;79&lt;/span&gt;
+model name	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Intel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Xeon&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; CPU E5&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2673&lt;/span&gt; v4 @ &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;30GHz
+stepping	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+microcode	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0xffffffff&lt;/span&gt;
+cpu MHz		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2294.689&lt;/span&gt;
+cache size	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;51200&lt;/span&gt; KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!free &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;              total        used        free      shared  buff&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cache   available
+Mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;           &lt;span class=&quot;token number&quot;&gt;3.&lt;/span&gt;8G        568M        &lt;span class=&quot;token number&quot;&gt;3.&lt;/span&gt;1G         17M        198M        &lt;span class=&quot;token number&quot;&gt;3.&lt;/span&gt;0G
+Swap&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;장점-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%A5%EC%A0%90-1&quot; aria-label=&quot;장점 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;장점&lt;/h3&gt;
+&lt;p&gt;UI 측면에서 Jupiter Notebook 그대로를 사용하고 익숙할 뿐만아니라, UI의 편의성과 활용성이 더욱 사용하기 좋음&lt;/p&gt;
+&lt;p&gt;Python 버전별로 커널을 생성하기에 편리하며, Python 외 R 등 환경도 잘 디플로이 되어 있음&lt;/p&gt;
+&lt;p&gt;다양한 강좌들을 포함하고 있어서, 공부하는데 많은 도움이 됨&lt;/p&gt;
+&lt;h3 id=&quot;단점-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8B%A8%EC%A0%90-1&quot; aria-label=&quot;단점 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;단점&lt;/h3&gt;
+&lt;p&gt;파일 접근 할 때 속도가 많이 느림.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://k.kakaocdn.net/dn/eqquwR/btqEdw7BsC4/0FUvpp7iezQhnC2p6ejoRK/img.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+&lt;p&gt;두번째 및 3번째 실행 시 15.37초&lt;/p&gt;
+&lt;h2 id=&quot;binder&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#binder&quot; aria-label=&quot;binder permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Binder&lt;/h2&gt;
+&lt;p&gt;자체적으로 notebook을 작성하여 사용하는 방식이 아닌, GitHub에 있는 Repository를 가져와 서 실행 시켜주는 방식이다. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mybinder.org/static/logo.svg?v=f9f0d927b67cc9dc99d788c822ca21c0&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/Users/audit01/Library/Application%20Support/typora-user-images/image-20200515153550284.png&quot; alt=&quot;image-20200515153550284&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!cat &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;proc&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cpuinfo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;processor	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;71&lt;/span&gt;
+vendor_id	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; GenuineIntel
+cpu family	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
+model		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;85&lt;/span&gt;
+model name	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Intel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Xeon&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Gold &lt;span class=&quot;token number&quot;&gt;6140&lt;/span&gt; CPU @ &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;30GHz
+stepping	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+microcode	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0x2000064&lt;/span&gt;
+cpu MHz		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1000.027&lt;/span&gt;
+cache size	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;25344&lt;/span&gt; KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Memory 스펙&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!free &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;              total        used        free      shared  buff&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cache   available
+Mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;           754G         52G        101G         15M        600G        705G
+Swap&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;gitpod&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gitpod&quot; aria-label=&quot;gitpod permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GitPod&lt;/h2&gt;
+&lt;p&gt;CPU 스펙&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!cat &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;proc&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cpuinfo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;processor       &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;
+vendor_id       &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; GenuineIntel
+cpu family      &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
+model           &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;79&lt;/span&gt;
+model name      &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Intel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Xeon&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; CPU @ &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;20GHz
+stepping        &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+microcode       &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0x1&lt;/span&gt;
+cpu MHz         &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2200.000&lt;/span&gt;
+cache size      &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56320&lt;/span&gt; KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;M&lt;/p&gt;
+&lt;p&gt;Memory 스펙&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!free &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;              total        used        free      shared  buff&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cache   available
+Mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;           58Gi       &lt;span class=&quot;token number&quot;&gt;8.&lt;/span&gt;3Gi        23Gi       &lt;span class=&quot;token number&quot;&gt;4.&lt;/span&gt;0Mi        27Gi        51Gi
+Swap&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[개츠비(Gatsby) + Git Page로 자신만의 블로그 만들기]]></title><description><![CDATA[블로그 만들기 2 Github Page와 Gatsby를 이용한 Blog를 운영할 때, 예상치 못한 현상들이 지속 발견 되고 있다. 
 그 중에 하나가, commit 할 때마다 Custom Domain 설정이 바뀌는 것이다. 원래 다음과 같이 Github…]]></description><link>https://tech.richwind.co.kr/gatsbyBlog_2/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlog_2/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
@@ -97,6 +267,7 @@
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt; 다행히 자동으로 적용하는 방법이 고안 되었다. 결론 부터 이야기 하면 CNAME 파일을 생성하여 추가 해 주면 된다. &lt;/p&gt;
+&lt;h2 id=&quot;cname&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cname&quot; aria-label=&quot;cname permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CNAME&lt;/h2&gt;
 &lt;p&gt;우선, Custom domain 설정을 하면 Github Repository에 어떠한 변화가 있는지 살펴 봤다.Custom domain 정보를 변경하고, 저장을 눌러준다. 잠시 적용이 반영되기를 기다렸다가 변경사항 반영된것을 확인 하고 Repository로 돌아와서 확인 했더니, 오호~ 23초 전에 생성된 파일이 있다. &lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -161,105 +332,109 @@ CNAME 파일을 열어보면, 일반 DNS (nslookup talbe)에 포함되어 있는
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;DNS name과 Ip를 매핑하는 것은 아니라. 단순하게 Domain name만 들어가 있다. 이제 프로젝트 파일을 하나 새로 생성하고 다시 커밋을 해 보자. &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt; &lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby clean &amp;amp;&amp;amp; gatsby build &amp;amp;&amp;amp; gh-pages -b master -d public&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;그런데, 문제가 하나 있다. Deploy 할 때 github로 ./public은 매번 모두 삭제하고 다시 빌드한다는 것이다. 이 때문에, /public 위치에 CNAME을 생성해 두어도 원하는 바를 이룰 수 없다. 그래서, deploy 할 때 build 후에 CNAME을 /public으로 복사하는 것으로 변경하였다. &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt; &lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby clean &amp;amp;&amp;amp; gatsby build &amp;amp;&amp;amp; cp CNAME ./public &amp;amp;&amp;amp; gh-pages -b master -d public&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Online Jupyter Notebook for Python]]></title><description><![CDATA[Online Jupyter Notebook for Python Google Colab vs. MS Azure Notebook vs. Binder Online 환경에서 데이터 분석을 진행할 수 있는 대표적인 플랫폼을 비교/평가 해 보았다.  Google…]]></description><link>https://tech.richwind.co.kr/Online Jupyter Notebook for Python/</link><guid isPermaLink="false">https://tech.richwind.co.kr/Online Jupyter Notebook for Python/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;online-jupyter-notebook-for-python&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#online-jupyter-notebook-for-python&quot; aria-label=&quot;online jupyter notebook for python permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Online Jupyter Notebook for Python&lt;/h1&gt;
-&lt;h2 id=&quot;google-colab-vs-ms-azure-notebook-vs-binder&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#google-colab-vs-ms-azure-notebook-vs-binder&quot; aria-label=&quot;google colab vs ms azure notebook vs binder permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Google Colab vs. MS Azure Notebook vs. Binder&lt;/h2&gt;
-&lt;p&gt;Online 환경에서 데이터 분석을 진행할 수 있는 대표적인 플랫폼을 비교/평가 해 보았다. &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Google Colab&lt;/li&gt;
-&lt;li&gt;MS Azure Notebook&lt;/li&gt;
-&lt;li&gt;Binder&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;다양한 측면에서 비교를 할 수 있지만, 진정으로 크리티컬한 부분에서 놓칠 수 없는 비교점이 있다. &lt;/p&gt;
-&lt;h2 id=&quot;google-colab&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#google-colab&quot; aria-label=&quot;google colab permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Google Colab&lt;/h2&gt;
-&lt;p&gt;제공되는 리소스는 &lt;code class=&quot;language-text&quot;&gt;2 CPU, 12G Mem 할당&lt;/code&gt; 으로 상당히 준수하다. 게다가 GPU를 제공해 주고 있어서, GPU 모드로 ML 연산을 계산할 수 있다. &lt;/p&gt;
-&lt;p&gt;Google Colab에서 제공하는 리소스 스펙&lt;/p&gt;
-&lt;p&gt;CPU 스펙&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!cat &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;proc&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cpuinfo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;processor	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-vendor_id	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; GenuineIntel
-cpu family	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
-model		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;79&lt;/span&gt;
-model name	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Intel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Xeon&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; CPU @ &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;20GHz
-stepping	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-microcode	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0x1&lt;/span&gt;
-cpu MHz		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2200.000&lt;/span&gt;
-cache size	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56320&lt;/span&gt; KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Memory 스펙&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!free &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;              total        used        free      shared  buff&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cache   available
-Mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            12G        &lt;span class=&quot;token number&quot;&gt;3.&lt;/span&gt;0G        &lt;span class=&quot;token number&quot;&gt;7.&lt;/span&gt;4G        908K        &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;3G         11G
-Swap&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&quot;장점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%A5%EC%A0%90&quot; aria-label=&quot;장점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;장점&lt;/h3&gt;
-&lt;p&gt;웹환경에서 실행하여줌에도 불구하고, GPU를 지원해줌&lt;/p&gt;
-&lt;p&gt;ML을 구동시키기에 적당함&lt;/p&gt;
-&lt;h3 id=&quot;단점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8B%A8%EC%A0%90&quot; aria-label=&quot;단점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;단점&lt;/h3&gt;
-&lt;p&gt;UI가 몹시 레거시함&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/Users/audit01/Library/Application%20Support/typora-user-images/image-20200515152247703.png&quot; alt=&quot;image-20200515152247703&quot;&gt;&lt;/p&gt;
-&lt;p&gt;개인차이가 있을 수 있겠으나, UI 좀 덜 아름답다. 뭔가 과거의 파워빌더(PowerBuilder)를 보는 느낌이랄까?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://k.kakaocdn.net/dn/ca9bkW/btqEcnRjWTI/KRiP5gdMZI9ILBK8KEBDF0/img.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
-&lt;p&gt;실행할 때 마다 차이가 존재한다. 2~3번째 실행 할 때는 1.83초&lt;/p&gt;
-&lt;h2 id=&quot;microsoft-azure-notebook&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#microsoft-azure-notebook&quot; aria-label=&quot;microsoft azure notebook permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Microsoft Azure Notebook&lt;/h2&gt;
-&lt;p&gt;MS Azure Notebook의 제공되는 리소스의 스펙&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!cat &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;proc&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cpuinfo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;processor	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-vendor_id	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; GenuineIntel
-cpu family	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
-model		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;79&lt;/span&gt;
-model name	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Intel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Xeon&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; CPU E5&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2673&lt;/span&gt; v4 @ &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;30GHz
-stepping	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
-microcode	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0xffffffff&lt;/span&gt;
-cpu MHz		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2294.689&lt;/span&gt;
-cache size	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;51200&lt;/span&gt; KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!free &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;              total        used        free      shared  buff&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cache   available
-Mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;           &lt;span class=&quot;token number&quot;&gt;3.&lt;/span&gt;8G        568M        &lt;span class=&quot;token number&quot;&gt;3.&lt;/span&gt;1G         17M        198M        &lt;span class=&quot;token number&quot;&gt;3.&lt;/span&gt;0G
-Swap&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&quot;장점-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%A5%EC%A0%90-1&quot; aria-label=&quot;장점 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;장점&lt;/h3&gt;
-&lt;p&gt;UI 측면에서 Jupiter Notebook 그대로를 사용하고 익숙할 뿐만아니라, UI의 편의성과 활용성이 더욱 사용하기 좋음&lt;/p&gt;
-&lt;p&gt;Python 버전별로 커널을 생성하기에 편리하며, Python 외 R 등 환경도 잘 디플로이 되어 있음&lt;/p&gt;
-&lt;p&gt;다양한 강좌들을 포함하고 있어서, 공부하는데 많은 도움이 됨&lt;/p&gt;
-&lt;h3 id=&quot;단점-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8B%A8%EC%A0%90-1&quot; aria-label=&quot;단점 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;단점&lt;/h3&gt;
-&lt;p&gt;파일 접근 할 때 속도가 많이 느림.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://k.kakaocdn.net/dn/eqquwR/btqEdw7BsC4/0FUvpp7iezQhnC2p6ejoRK/img.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
-&lt;p&gt;두번째 및 3번째 실행 시 15.37초&lt;/p&gt;
-&lt;h2 id=&quot;binder&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#binder&quot; aria-label=&quot;binder permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Binder&lt;/h2&gt;
-&lt;p&gt;자체적으로 notebook을 작성하여 사용하는 방식이 아닌, GitHub에 있는 Repository를 가져와 서 실행 시켜주는 방식이다. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mybinder.org/static/logo.svg?v=f9f0d927b67cc9dc99d788c822ca21c0&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/Users/audit01/Library/Application%20Support/typora-user-images/image-20200515153550284.png&quot; alt=&quot;image-20200515153550284&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!cat &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;proc&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cpuinfo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;processor	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;71&lt;/span&gt;
-vendor_id	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; GenuineIntel
-cpu family	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
-model		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;85&lt;/span&gt;
-model name	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Intel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Xeon&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Gold &lt;span class=&quot;token number&quot;&gt;6140&lt;/span&gt; CPU @ &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;30GHz
-stepping	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
-microcode	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0x2000064&lt;/span&gt;
-cpu MHz		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1000.027&lt;/span&gt;
-cache size	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;25344&lt;/span&gt; KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Memory 스펙&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!free &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;              total        used        free      shared  buff&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cache   available
-Mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;           754G         52G        101G         15M        600G        705G
-Swap&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&quot;gitpod&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gitpod&quot; aria-label=&quot;gitpod permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GitPod&lt;/h2&gt;
-&lt;p&gt;CPU 스펙&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!cat &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;proc&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cpuinfo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;processor       &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;
-vendor_id       &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; GenuineIntel
-cpu family      &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
-model           &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;79&lt;/span&gt;
-model name      &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Intel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Xeon&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; CPU @ &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;20GHz
-stepping        &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-microcode       &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0x1&lt;/span&gt;
-cpu MHz         &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2200.000&lt;/span&gt;
-cache size      &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56320&lt;/span&gt; KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;M&lt;/p&gt;
-&lt;p&gt;Memory 스펙&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!free &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;              total        used        free      shared  buff&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cache   available
-Mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;           58Gi       &lt;span class=&quot;token number&quot;&gt;8.&lt;/span&gt;3Gi        23Gi       &lt;span class=&quot;token number&quot;&gt;4.&lt;/span&gt;0Mi        27Gi        51Gi
-Swap&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[컴알못 와이프, 블로거로 키우기 - 초보 블로거 따라하기 Step by Step]]></title><description><![CDATA[…]]></description><link>https://tech.richwind.co.kr/bloging-init-step-by-step/</link><guid isPermaLink="false">https://tech.richwind.co.kr/bloging-init-step-by-step/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;컴알못-와이프-블로거로-키우기---초보-블로거-따라하기-스텝-바이-스텝&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%B4%EC%95%8C%EB%AA%BB-%EC%99%80%EC%9D%B4%ED%94%84-%EB%B8%94%EB%A1%9C%EA%B1%B0%EB%A1%9C-%ED%82%A4%EC%9A%B0%EA%B8%B0---%EC%B4%88%EB%B3%B4-%EB%B8%94%EB%A1%9C%EA%B1%B0-%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0-%EC%8A%A4%ED%85%9D-%EB%B0%94%EC%9D%B4-%EC%8A%A4%ED%85%9D&quot; aria-label=&quot;컴알못 와이프 블로거로 키우기   초보 블로거 따라하기 스텝 바이 스텝 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컴.알.못 와이프, 블로거로 키우기 - 초보 블로거 따라하기 스텝 바이 스텝&lt;/h1&gt;
+&lt;p&gt;그런데, 문제가 하나 있다. Deploy 할 때 github로 ./public은 매번 모두 삭제하고 다시 빌드한다는 것이다. 이 때문에, /public 위치에 CNAME을 생성해 두어도 원하는 바를 이룰 수 없다. CNAME을 매번 유지하는 것에 2가지 방법이 있다. &lt;/p&gt;
+&lt;h2 id=&quot;1-static-폴더-사용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-static-%ED%8F%B4%EB%8D%94-%EC%82%AC%EC%9A%A9&quot; aria-label=&quot;1 static 폴더 사용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Static 폴더 사용&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 456px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5f824a081ae0ea42558c4158cd359d83/476a8/image-20210529161022396.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 21.710526315789473%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA7ElEQVQY03WPuU7DUBBF/ZMsoaSgoACJil8ABBVIFGlBfAdNBESiIAQcKJLIid8Wr8IkduzDszElxdGdO5tmnPuPlNtHgTuOGXprXiZLy+oflgymOc+fCU9vmv674WGo6Q0MvddFg3N8Zzi4ERx1BVtnHtvnkp0LScdq50/buM7X9d1LyWFXsn8t2Lvy2TydsXHi2XkfpygKsixjPJkyGrk2/gIqynLdUrb8+qoqieOY2XyO7wuElIRhSBAEpGmCs8pzsu8MIezbrotvVRuD0oooilBKIZW0XmMWhjhJSCyi6dNNT26Pqg/L7a4fZVsZ2QW0ro0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;static folder에 CNAME을 복사해 둔다.&quot;
+        title=&quot;static folder에 CNAME을 복사해 둔다.&quot;
+        src=&quot;/static/5f824a081ae0ea42558c4158cd359d83/476a8/image-20210529161022396.png&quot;
+        srcset=&quot;/static/5f824a081ae0ea42558c4158cd359d83/00d96/image-20210529161022396.png 148w,
+/static/5f824a081ae0ea42558c4158cd359d83/0b23c/image-20210529161022396.png 295w,
+/static/5f824a081ae0ea42558c4158cd359d83/476a8/image-20210529161022396.png 456w&quot;
+        sizes=&quot;(max-width: 456px) 100vw, 456px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;사실, 가장 단순한 방법이다. 고정된 정적 자원을 사용하는 폴더인 &lt;code class=&quot;language-text&quot;&gt;static folder&lt;/code&gt; 에 복사해 두고 사용하면 된다. &lt;code class=&quot;language-text&quot;&gt;Deploy&lt;/code&gt; 과정에서 삭제되는 부분은 &lt;code class=&quot;language-text&quot;&gt;/public&lt;/code&gt; 이며, &lt;code class=&quot;language-text&quot;&gt;/static&lt;/code&gt; 은 deploy 시점에 &lt;code class=&quot;language-text&quot;&gt;/public&lt;/code&gt; 으로 자동 복사해 주기 때문이다. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;동일한 관점에서 나중에 NAVER 웹마스터 도구 등에서 소유 확인을 위한 html 파일을 입력하도록 요구한다. 이 때 static 폴더에 해당 파일을 복사해 두면 된다. Adsense 에서 요구한 ads.txt 도 이 영역에서 관리하면 된다. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0ac4252aae0f9017a843de36ef9a5177/4d798/image-20210529161724471.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.70967741935485%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABpklEQVQ4y52UjXajIBSEef+XzK7piboiovIjoEwH0qQ5bbbtKZ4vI3pzvdxBxTzPOJ/PGIYBTdPgdDph33eUkXP+mieH2PcDKaZKjJEkBpdsD/xv5M+IeDjYpOCSfmOCje+YMOKfekE3NmjlX1yGP+hkg8n0vK/qfRPUHeGjwewlGd9xnNsBi79qSSj1BdPaQ5GiK+Nc1Eyqq94QMQT4eYHVMxzxBevgnMe2haqF0oqfDAH+CeMI0BwoBboDLAvgPWAMYC2YsWrmPN90XZFZTP5gntDJQpsVmpVpJjpyfurw28VvnRd+D5DrhBfd4yI7aEUzSgUHA46j6sGdsKe9nn+/ZMYs3mK0M6SZqBoDHzCYK/1Kl41COw9Qnr0OHp4t2LaNXfGfECXrYldMDB42TQdnrJtFyAnbEeGPUHXL8XothpossH/PECklLHR5Yf9S5rK4PGT8etSEWrOyaYLjdillGzrpuCxLNexnIbCyn7yOovxIKdH3/Z22bat2XVfPb/MSV975guIWyw874l5hmaxc7rRoSKdRPhaluoMOP1I+GB95lvAV2p9EJhwaJxcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;네이버 웹마스터 도구: 소유 확인/검증을 위한 파일 업로드&quot;
+        title=&quot;네이버 웹마스터 도구: 소유 확인/검증을 위한 파일 업로드&quot;
+        src=&quot;/static/0ac4252aae0f9017a843de36ef9a5177/799d3/image-20210529161724471.png&quot;
+        srcset=&quot;/static/0ac4252aae0f9017a843de36ef9a5177/00d96/image-20210529161724471.png 148w,
+/static/0ac4252aae0f9017a843de36ef9a5177/0b23c/image-20210529161724471.png 295w,
+/static/0ac4252aae0f9017a843de36ef9a5177/799d3/image-20210529161724471.png 590w,
+/static/0ac4252aae0f9017a843de36ef9a5177/2a3d6/image-20210529161724471.png 885w,
+/static/0ac4252aae0f9017a843de36ef9a5177/4d798/image-20210529161724471.png 930w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-deploy-시점에-복사&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-deploy-%EC%8B%9C%EC%A0%90%EC%97%90-%EB%B3%B5%EC%82%AC&quot; aria-label=&quot;2 deploy 시점에 복사 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Deploy 시점에 복사&lt;/h2&gt;
+&lt;p&gt;경우에 따라서는 Static 폴더 사용이 불가능한 경우도 존재한다. 따라서 두번째 방법으로는, deploy 할 때 build 후에 CNAME을 /public으로 복사하는 것으로 변경하는 방법이다. 아래 &lt;code class=&quot;language-text&quot;&gt;cp CNAME&lt;/code&gt;	을 추가 해 주었다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt; &lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby clean &amp;amp;&amp;amp; gatsby build &amp;amp;&amp;amp; cp CNAME ./public &amp;amp;&amp;amp; gh-pages -b master -d public&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[gatsby 3]]></title><description><![CDATA[블로그 만들기 3 Gatsby Blog 만들기 3 test22]]></description><link>https://tech.richwind.co.kr/gatsbyBlog_3/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlog_3/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6aba664d13c4c6b19b085d124edd3d35/75d76/gatsbyCover.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.6875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsSAAALEgHS3X78AAAAw0lEQVQY05WPzQqCQBSF52l7mtr6Aq4iVxW0bRURZb9GJf1MxaBoJgWKM87cRiuzKMizuNx74TuHg+CXBAgh3j/p6Tnge0CpXBGPBRRSFIIxgGEXwgBtJrbg4mmdLBb2q+XOwXSW5sJ1XYwxIYQx9gqnEUz7oHfQqL1bj607z9Mpz0qpMe/tm626VtNUVVUURVpk7okYBUNH13Mo+ZVOeMyztlHAINdGxn72T3kk58ULtjP7aJ6goFDOKP5i/w9ckHroBtaizl/Y39VCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Gatsby Thumbnail Image&quot;
+        title=&quot;Gatsby Thumbnail Image&quot;
+        src=&quot;/static/6aba664d13c4c6b19b085d124edd3d35/799d3/gatsbyCover.png&quot;
+        srcset=&quot;/static/6aba664d13c4c6b19b085d124edd3d35/00d96/gatsbyCover.png 148w,
+/static/6aba664d13c4c6b19b085d124edd3d35/0b23c/gatsbyCover.png 295w,
+/static/6aba664d13c4c6b19b085d124edd3d35/799d3/gatsbyCover.png 590w,
+/static/6aba664d13c4c6b19b085d124edd3d35/2a3d6/gatsbyCover.png 885w,
+/static/6aba664d13c4c6b19b085d124edd3d35/ae92f/gatsbyCover.png 1180w,
+/static/6aba664d13c4c6b19b085d124edd3d35/75d76/gatsbyCover.png 1600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;블로그-만들기-3&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-3&quot; aria-label=&quot;블로그 만들기 3 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;블로그 만들기 3&lt;/h1&gt;
+&lt;p&gt;Gatsby Blog 만들기 3&lt;/p&gt;
+&lt;p&gt;test22&lt;/p&gt;</content:encoded></item><item><title><![CDATA[컴알못 와이프, 블로거로 키우기 - 초보 블로거 따라하기 Step by Step]]></title><description><![CDATA[…]]></description><link>https://tech.richwind.co.kr/bloging-init-step-by-step/</link><guid isPermaLink="false">https://tech.richwind.co.kr/bloging-init-step-by-step/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;컴알못-와이프-블로거로-키우기---초보-블로거-따라하기-스텝-바이-스텝&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%B4%EC%95%8C%EB%AA%BB-%EC%99%80%EC%9D%B4%ED%94%84-%EB%B8%94%EB%A1%9C%EA%B1%B0%EB%A1%9C-%ED%82%A4%EC%9A%B0%EA%B8%B0---%EC%B4%88%EB%B3%B4-%EB%B8%94%EB%A1%9C%EA%B1%B0-%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0-%EC%8A%A4%ED%85%9D-%EB%B0%94%EC%9D%B4-%EC%8A%A4%ED%85%9D&quot; aria-label=&quot;컴알못 와이프 블로거로 키우기   초보 블로거 따라하기 스텝 바이 스텝 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컴.알.못 와이프, 블로거로 키우기 - 초보 블로거 따라하기 스텝 바이 스텝&lt;/h1&gt;
 &lt;h3 id=&quot;필자의-와이프는-정말-최고수준의-u컴알못u이다-네이버-검색도-잘-못하고-웹사이트도-북마크-해둔-것만-들어간다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%84%EC%9E%90%EC%9D%98-%EC%99%80%EC%9D%B4%ED%94%84%EB%8A%94-%EC%A0%95%EB%A7%90-%EC%B5%9C%EA%B3%A0%EC%88%98%EC%A4%80%EC%9D%98-u%EC%BB%B4%EC%95%8C%EB%AA%BBu%EC%9D%B4%EB%8B%A4-%EB%84%A4%EC%9D%B4%EB%B2%84-%EA%B2%80%EC%83%89%EB%8F%84-%EC%9E%98-%EB%AA%BB%ED%95%98%EA%B3%A0-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%8F%84-%EB%B6%81%EB%A7%88%ED%81%AC-%ED%95%B4%EB%91%94-%EA%B2%83%EB%A7%8C-%EB%93%A4%EC%96%B4%EA%B0%84%EB%8B%A4&quot; aria-label=&quot;필자의 와이프는 정말 최고수준의 u컴알못u이다 네이버 검색도 잘 못하고 웹사이트도 북마크 해둔 것만 들어간다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;em&gt;필자의 와이프는 정말 최고수준의 &lt;u&gt;컴.알.못.&lt;/u&gt;이다. 네이버 검색도 잘 못하고, 웹사이트도 북마크 해둔 것만 들어간다.&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;사실, 블로그와 컴.알.못은 아무런 관련이 없다. 오히려 IT와 컴퓨터를 모르는 사람이 더 감각 있다는 것이 필자의 느낀점이라고나 할까? &lt;strong&gt;&lt;em&gt;컴.알.못.의 문제점은&lt;/em&gt;&lt;/strong&gt;, 블로그에 대한 초기 설정들, 서치콘솔 등록들, 그리고 블로그 작성할 때 에디터와 그림편집 등을 빠르게 할 수 없다는 게 문제 이긴 하다. 그러나, 이러한 부분은 개발자출신인 남편이 얼마든지 커버할 수 있다.  개인적인 느낌은 필자보다 와이프가 블로깅에 더욱 능력이 있을 것이라는 판단이다. (이 판단은 오산이라는 것을 나중에 알게 되었어 ㅜ_ㅜ)&lt;/p&gt;
 &lt;blockquote&gt;
@@ -353,114 +528,7 @@ https://richwind.co.kr/sitemap.xml&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;네이버 &lt;code class=&quot;language-text&quot;&gt;Search Advisor&lt;/code&gt; 서비스로 들어와 우측 상단에 &lt;code class=&quot;language-text&quot;&gt;웹마스터 도구&lt;/code&gt; 버튼을 눌러 줍니다. 웹마스터 도구에 &lt;strong&gt;사이트 관리&lt;/strong&gt; 항목에서 사이트를 등록할 수 있습니다. 아래 필자의 경우, 필자의 사이트 URL &lt;code class=&quot;language-text&quot;&gt;http://richwind.co.kr&lt;/code&gt; 을 등록해 준 결과 입니다. &lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/Users/audit01/Library/Application%20Support/typora-user-images/image-20200515193845166.png&quot; alt=&quot;image-20200515193845166&quot;&gt;&lt;/p&gt;
 &lt;p&gt;추후 진행 예정입니다만, 메뉴중에 &lt;code class=&quot;language-text&quot;&gt;간단체크&lt;/code&gt; 항목으로 진입하면, 점검하고자 하는 사이트가 얼마나 구조화 및 최적화가 되었는진 항목점검해 주는 기능이 있습니다. 최소한 아래 기준 항목은 모두 만족을 해야 합니다. 현 시점에서 제 와이프 및 독자 여러분은 아래 항목에 만족을 못하는 항목도 존재 할 것입니다. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/Users/audit01/Library/Application%20Support/typora-user-images/image-20200515212811107.png&quot; alt=&quot;image-20200515212811107&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[개츠비(Gatsby)로 블로그 만들기 1]]></title><description><![CDATA[Gatsby 블로그 만들기 1  시리즈 및 연재글 작성 템플릿 연재글을 작성할 때에는 동일 폴더에  형태로 파일명을 지정한다. 
-추후 Static Generation…]]></description><link>https://tech.richwind.co.kr/gatsbyBlog_1/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlog_1/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gatsby-블로그-만들기-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1&quot; aria-label=&quot;gatsby 블로그 만들기 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby 블로그 만들기 1&lt;/h1&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6aba664d13c4c6b19b085d124edd3d35/75d76/gatsbyCover.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 41.6875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsSAAALEgHS3X78AAAAw0lEQVQY05WPzQqCQBSF52l7mtr6Aq4iVxW0bRURZb9GJf1MxaBoJgWKM87cRiuzKMizuNx74TuHg+CXBAgh3j/p6Tnge0CpXBGPBRRSFIIxgGEXwgBtJrbg4mmdLBb2q+XOwXSW5sJ1XYwxIYQx9gqnEUz7oHfQqL1bj607z9Mpz0qpMe/tm626VtNUVVUURVpk7okYBUNH13Mo+ZVOeMyztlHAINdGxn72T3kk58ULtjP7aJ6goFDOKP5i/w9ckHroBtaizl/Y39VCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Gatsby Thumbnail Image&quot;
-        title=&quot;Gatsby Thumbnail Image&quot;
-        src=&quot;/static/6aba664d13c4c6b19b085d124edd3d35/799d3/gatsbyCover.png&quot;
-        srcset=&quot;/static/6aba664d13c4c6b19b085d124edd3d35/00d96/gatsbyCover.png 148w,
-/static/6aba664d13c4c6b19b085d124edd3d35/0b23c/gatsbyCover.png 295w,
-/static/6aba664d13c4c6b19b085d124edd3d35/799d3/gatsbyCover.png 590w,
-/static/6aba664d13c4c6b19b085d124edd3d35/2a3d6/gatsbyCover.png 885w,
-/static/6aba664d13c4c6b19b085d124edd3d35/ae92f/gatsbyCover.png 1180w,
-/static/6aba664d13c4c6b19b085d124edd3d35/75d76/gatsbyCover.png 1600w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h1 id=&quot;시리즈-및-연재글-작성-템플릿&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%9C%EB%A6%AC%EC%A6%88-%EB%B0%8F-%EC%97%B0%EC%9E%AC%EA%B8%80-%EC%9E%91%EC%84%B1-%ED%85%9C%ED%94%8C%EB%A6%BF&quot; aria-label=&quot;시리즈 및 연재글 작성 템플릿 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;시리즈 및 연재글 작성 템플릿&lt;/h1&gt;
-&lt;p&gt;연재글을 작성할 때에는 동일 폴더에 &lt;code class=&quot;language-text&quot;&gt;동일한 이름_숫자.md&lt;/code&gt; 형태로 파일명을 지정한다.
-추후 Static Generation 과정에서 마지막&lt;code class=&quot;language-text&quot;&gt;_&lt;/code&gt;를 제외하고 동일한 이름은 연재글로 간주한다.
-연재글의 경우 우측 상단에 연관된 글에 대한 리스트를 제공한다. &lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; block에 &lt;code class=&quot;language-text&quot;&gt;라인넘버&lt;/code&gt;를 표기 하기 위해서는, &lt;code class=&quot;language-text&quot;&gt;prismjs&lt;/code&gt;의 옵션을 변경하여 준다.
-일반적으로 &lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; block에서 언어를 인지하기 위해 작은따옴표3개 뒤에 다음과 언어를 표기해 준다.
-이 언어 뒤에 중괄호&lt;code class=&quot;language-text&quot;&gt;{,}&lt;/code&gt;를 사용하여 강조하는 라인을 지정할 수 있다. &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;javascript{강조 라인1, 강조라인2}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;다음은 일반적인 코드 블럭이다. 기본적으로 prism highlight가 적용되어 있다. &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;App&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;// This is a comment!&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;I am returning a string&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;다음은 1,3라인을 강조한 결과이다. &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;App&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;// This is a comment!&lt;/span&gt;
-&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;I am returning a string&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;npm-패키지-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#npm-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;npm 패키지 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;npm 패키지 설치&lt;/h1&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install &amp;lt;package name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;install&lt;/code&gt; 대신 &lt;code class=&quot;language-text&quot;&gt;i&lt;/code&gt;를 사용할 수 있다.  &lt;code class=&quot;language-text&quot;&gt;npm -i &amp;lt;package name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;options&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#options&quot; aria-label=&quot;options permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;options&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;--save-dev&lt;/code&gt; : 개발환경에서만 사용(&lt;code class=&quot;language-text&quot;&gt;-D&lt;/code&gt; 옵션과 동일). &lt;code class=&quot;language-text&quot;&gt;npm i -D &amp;lt;pakcage name&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;--global&lt;/code&gt; : 콘솔에서 명령어 처럼 동작 (&lt;code class=&quot;language-text&quot;&gt;-g&lt;/code&gt; 옵션과 동일)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;github&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#github&quot; aria-label=&quot;github permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;github&lt;/h1&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ npm install gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;대부분의 gatsby의 theme에는 이미 적용이 &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; 되어 있다. &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// package.json
-&amp;quot;deploy&amp;quot;: &amp;quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -b master&amp;quot;,&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ git remote add origin https://github.com/sjwind/sjwind.github.io.git
-$ git add .
-$ git checkout -b develop
-$ git commit -m &amp;quot;first commit&amp;quot;
-$ npm run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이런 에러가 발생할 수 도 있다. &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;remote: Invalid username or password.
-fatal: Authentication failed for &amp;#39;https://github.com/sjwind/sjwind.github.io.git/&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[gatsby 3]]></title><description><![CDATA[블로그 만들기 3 Gatsby Blog 만들기 3 test22]]></description><link>https://tech.richwind.co.kr/gatsbyBlog_3/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlog_3/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6aba664d13c4c6b19b085d124edd3d35/75d76/gatsbyCover.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 41.6875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsSAAALEgHS3X78AAAAw0lEQVQY05WPzQqCQBSF52l7mtr6Aq4iVxW0bRURZb9GJf1MxaBoJgWKM87cRiuzKMizuNx74TuHg+CXBAgh3j/p6Tnge0CpXBGPBRRSFIIxgGEXwgBtJrbg4mmdLBb2q+XOwXSW5sJ1XYwxIYQx9gqnEUz7oHfQqL1bj607z9Mpz0qpMe/tm626VtNUVVUURVpk7okYBUNH13Mo+ZVOeMyztlHAINdGxn72T3kk58ULtjP7aJ6goFDOKP5i/w9ckHroBtaizl/Y39VCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Gatsby Thumbnail Image&quot;
-        title=&quot;Gatsby Thumbnail Image&quot;
-        src=&quot;/static/6aba664d13c4c6b19b085d124edd3d35/799d3/gatsbyCover.png&quot;
-        srcset=&quot;/static/6aba664d13c4c6b19b085d124edd3d35/00d96/gatsbyCover.png 148w,
-/static/6aba664d13c4c6b19b085d124edd3d35/0b23c/gatsbyCover.png 295w,
-/static/6aba664d13c4c6b19b085d124edd3d35/799d3/gatsbyCover.png 590w,
-/static/6aba664d13c4c6b19b085d124edd3d35/2a3d6/gatsbyCover.png 885w,
-/static/6aba664d13c4c6b19b085d124edd3d35/ae92f/gatsbyCover.png 1180w,
-/static/6aba664d13c4c6b19b085d124edd3d35/75d76/gatsbyCover.png 1600w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h1 id=&quot;블로그-만들기-3&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-3&quot; aria-label=&quot;블로그 만들기 3 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;블로그 만들기 3&lt;/h1&gt;
-&lt;p&gt;Gatsby Blog 만들기 3&lt;/p&gt;
-&lt;p&gt;test22&lt;/p&gt;</content:encoded></item><item><title><![CDATA[실전 예제로 배우는 파이썬 기본 (Python Basic) - 가장 빠르게 배우는 파이썬]]></title><description><![CDATA[toc Python Basic 파이썬 기본 문법 자료형 제어문 반복문 함수와 클래스 모듈과 패키지 파일 입출력 문자열 다루기 문자열 출력하기 문자열 출력 방법 print() 문자열 포매팅 string.format() f…]]></description><link>https://tech.richwind.co.kr/python-basic/</link><guid isPermaLink="false">https://tech.richwind.co.kr/python-basic/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;[toc]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/Users/audit01/Library/Application%20Support/typora-user-images/image-20200515212811107.png&quot; alt=&quot;image-20200515212811107&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[실전 예제로 배우는 파이썬 기본 (Python Basic) - 가장 빠르게 배우는 파이썬]]></title><description><![CDATA[toc Python Basic 파이썬 기본 문법 자료형 제어문 반복문 함수와 클래스 모듈과 패키지 파일 입출력 문자열 다루기 문자열 출력하기 문자열 출력 방법 print() 문자열 포매팅 string.format() f…]]></description><link>https://tech.richwind.co.kr/python-basic/</link><guid isPermaLink="false">https://tech.richwind.co.kr/python-basic/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;[toc]&lt;/p&gt;
 &lt;h1 id=&quot;python-basic&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#python-basic&quot; aria-label=&quot;python basic permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Python Basic&lt;/h1&gt;
 &lt;h1 id=&quot;파이썬-기본-문법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95&quot; aria-label=&quot;파이썬 기본 문법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;파이썬 기본 문법&lt;/h1&gt;
 &lt;p&gt;자료형&lt;/p&gt;
