@@ -1,4 +1,361 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[IT Tech Blog | Feed]]></title><description><![CDATA[IT Tech Blog for Data Sicentists. It deals with Data Science and machine learning, and Python. We are also concering about frontend such as javascript, react, react-native, and so on.]]></description><link>https://tech.richwind.co.kr</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Jun 2021 07:04:24 GMT</lastBuildDate><item><title><![CDATA[Add to Comment System at your blog (ft.Disqus)]]></title><description><![CDATA[Let's comment on the Gatsby blog. So far, I have built my own blog with Gatsby. Download Gatsby, customize it, build it, and upload it to…]]></description><link>https://tech.richwind.co.kr/gatsbyBlogEnglish_5/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlogEnglish_5/</guid><pubDate>Mon, 07 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;lets-comment-on-the-gatsby-blog&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lets-comment-on-the-gatsby-blog&quot; aria-label=&quot;lets comment on the gatsby blog permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Let&apos;s comment on the Gatsby blog.&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[IT Tech Blog | Feed]]></title><description><![CDATA[IT Tech Blog for Data Sicentists. It deals with Data Science and machine learning, and Python. We are also concering about frontend such as javascript, react, react-native, and so on.]]></description><link>https://tech.richwind.co.kr</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Jun 2021 03:03:24 GMT</lastBuildDate><item><title><![CDATA[gatsby 3 - Registering site into Search Console]]></title><description><![CDATA[For details on search engine registration, please refer to the following. Search engine webmaster registration process description: https…]]></description><link>https://tech.richwind.co.kr/gatsbyBlogEnglish_3 /</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlogEnglish_3 /</guid><pubDate>Mon, 07 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;For details on search engine registration, please refer to the following.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[Search engine webmaster registration process description]: &lt;a href=&quot;https://www.richwind.co.kr/114&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.richwind.co.kr/114&lt;/a&gt; -[How to use Naver Search Advisor]: &lt;a href=&quot;https://www.richwind.co.kr/114&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.richwind.co.kr/114&lt;/a&gt; -[Search engine optimization Description]: &lt;a href=&quot;https://www.richwind.co.kr/108&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.richwind.co.kr/108&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;create-a-blog-3&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#create-a-blog-3&quot; aria-label=&quot;create a blog 3 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Create a blog 3&lt;/h1&gt;
+&lt;h2 id=&quot;register-in-search-engines&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#register-in-search-engines&quot; aria-label=&quot;register in search engines permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Register in search engines&lt;/h2&gt;
+&lt;h3 id=&quot;google-search-console&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#google-search-console&quot; aria-label=&quot;google search console permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Google Search Console&lt;/h3&gt;
+&lt;p&gt;In my case, since I am not active on social media, Google is the path that can generate the most influx.&lt;/p&gt;
+&lt;p&gt;Therefore, you should pay the most attention to Google Search Console. If you add plastic, you can add the site URL.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 298px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a626fe0c00fee46d2ae5e5d892c31e65/ca501/image-20210529163124564.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 107.43243243243244%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsSAAALEgHS3X78AAACbUlEQVQ4y61TWWuTQRT9flZd8cFHsVZFsGqrYF8EKQpKETRUqLVCDVIXqhV90AptBf9HnrIvJCGr2RNC9vX4nas3tCFLHxw4zJ0zM2fu3MU4f/0uHj5/haXHFswtLcPy+h2ebb7FqvUDtr7uYmXdigerG1jb2sbKSyuWLeuyvv/0BR6tbeLJxhvz7HuxqWWcvHQTMxfnMTM7D9qnLy/gzJUF2bxw+x5Ozd0S7ty1Oya/KGfI0SZ/9uqigHdOzN6AsfPjJz7/A+1PuwfYMfHx+z62v+2Z3IGAvOzJObWV3xf+y94vGPjPw2g2m2i1WqhWq0in08jmcshkMqjX62g2W+D+NNQbDXQ6HdExGuaCoABFK5WKzFzr3jTwLMW63S6MdrsNggu+wlnBtXKc9ewoDDzkv/v9vrhOMpVKIZlMIh6PI5FIoFQqIRaLidfTBr0VQXoQCoXkhXA4DI/Hg2AwKDPjmc1m5bA+Pgoc4qEudEiQzZjwG5wnDb17RJBGr9dDuVwWT2u12iDImihNFjlNAu+M9FBfYMxI8Kter1fix+8zFITP55P4RiIR2aPg8OCvDIp0TMP0c+ABvSS0LHRNz5TXCqCIaJg294xisWAGPYdA8Dfy+bx4QkSjUfj9fgG9CgQCAv6AHuvMpBWLRQGTZxQKBWRMQY8vIV3icDhgs9lElLbdbhfb6XSKTc7lcsmaPLuLGoQIavt0On/bjO4T4+xhTu/TZuIMBvcwmCANuNrHgZacMVygLB0eYOB5YFwhjypsEdQ6ZLtRjElwu90C2uQOF++kAj/SKUw7bZJMPx9RblLLjS3s47TYcTz8A0+IBq+RPsApAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Google Search console 사이트 등록 및 추가&quot;
+        title=&quot;Google Search console 사이트 등록 및 추가&quot;
+        src=&quot;/static/a626fe0c00fee46d2ae5e5d892c31e65/ca501/image-20210529163124564.png&quot;
+        srcset=&quot;/static/a626fe0c00fee46d2ae5e5d892c31e65/12f09/image-20210529163124564.png 148w,
+/static/a626fe0c00fee46d2ae5e5d892c31e65/e4a3f/image-20210529163124564.png 295w,
+/static/a626fe0c00fee46d2ae5e5d892c31e65/ca501/image-20210529163124564.png 298w&quot;
+        sizes=&quot;(max-width: 298px) 100vw, 298px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;It is good to check if the sitemap is properly registered.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d8f9768d0314177fd55ba85087e3b7a8/c6bbc/image-20210529163308078.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.972972972972975%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAAoklEQVQY022Q2wrEIAxE/f/PLPhUKrXeNZrtpLuySAPBGCYno2rbNj6Og7XWjBhjSK7x1lv7pRRWOedXSO9dkohEiKi1MvQ4oadGs59SklrFGCfwP1trc/i6LgFD672XHt3LUsmwKFoAxSEuAMDNCoQIJ4AQhxD4Z4D6vaB9X8fPjHOO1b7vUqz/hwXGGIFYawWEGg4FODqHCofPF2HxeZ78AWIjiRBjheZUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;google search console sitemaps&quot;
+        title=&quot;google search console sitemaps&quot;
+        src=&quot;/static/d8f9768d0314177fd55ba85087e3b7a8/fcda8/image-20210529163308078.png&quot;
+        srcset=&quot;/static/d8f9768d0314177fd55ba85087e3b7a8/12f09/image-20210529163308078.png 148w,
+/static/d8f9768d0314177fd55ba85087e3b7a8/e4a3f/image-20210529163308078.png 295w,
+/static/d8f9768d0314177fd55ba85087e3b7a8/fcda8/image-20210529163308078.png 590w,
+/static/d8f9768d0314177fd55ba85087e3b7a8/efc66/image-20210529163308078.png 885w,
+/static/d8f9768d0314177fd55ba85087e3b7a8/c6bbc/image-20210529163308078.png 910w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;naver-webmaster-tools&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#naver-webmaster-tools&quot; aria-label=&quot;naver webmaster tools permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Naver Webmaster Tools&lt;/h3&gt;
+&lt;p&gt;You can check the status of the current search engine registered for your blog.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/84263ee7cc15347c8a522b5d47dc6ce1/54bf4/image-20210529162757507.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.78378378378378%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABbklEQVQoz32SiW6EMAxE+f8fRa3KDQm5cP1MvaVVVUuzmxBnGM/Q7fsuy7LIPM/C+okjBOnf3mWYZqGu6/oBr+ezLucstVYppUhKSdjHGO1Z04ak+1Kq/FWtNbkUz+oggYxDSEBQZU4OWP8Gd7IiRD0vehdyFDLauq7WpI+McPgYZBxHG3vbNoNZcBzi/SEcUuola6iyHJCjVAlpcj9yuxVCwCXOfO2+8mKvM1eZ9mwYt2xTdlzwpnrd0v0yRARGD6GxB+d5mpqYqoxKhsI1FNKRzse9Fd5eBlWGj+4hqn3teyqqQpQNa5aQ6vfIGKxrVVeNkJdM0/QKgNRRBdjzMtb4Nqs6RiYY8VCMkCJtQvkKxIPwUHx/hxKMELJBVb5C4YCmVtvLw/ww/r9CFd7h4azEhNTdn8V6f8i12L+r4YwXAlfnSEktyM1CcZWE1OEFHuGd/phSRu773oCX9BxfQRm0nyn4Do9TBcRqSlH8CQfrqY0CGYqCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20210529162757507&quot;
+        title=&quot;image-20210529162757507&quot;
+        src=&quot;/static/84263ee7cc15347c8a522b5d47dc6ce1/fcda8/image-20210529162757507.png&quot;
+        srcset=&quot;/static/84263ee7cc15347c8a522b5d47dc6ce1/12f09/image-20210529162757507.png 148w,
+/static/84263ee7cc15347c8a522b5d47dc6ce1/e4a3f/image-20210529162757507.png 295w,
+/static/84263ee7cc15347c8a522b5d47dc6ce1/fcda8/image-20210529162757507.png 590w,
+/static/84263ee7cc15347c8a522b5d47dc6ce1/efc66/image-20210529162757507.png 885w,
+/static/84263ee7cc15347c8a522b5d47dc6ce1/54bf4/image-20210529162757507.png 1007w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;ince it is a stage that has just been created, it is indicated that the site description and graph description are insufficient.&lt;/p&gt;
+&lt;h3 id=&quot;bing-webmaster-tool&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bing-webmaster-tool&quot; aria-label=&quot;bing webmaster tool permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bing Webmaster Tool&lt;/h3&gt;
+&lt;p&gt;Great..! It&apos;s been a while since I&apos;ve entered Bing Webmaster Tools, and it is said that you can use it by loading what is registered in Google Search Console without registering a new one. Microsoft seems to be really good at this. As search engines, Google and Bing are not rivals, but they acknowledge and use what they use. This seems to make Microsoft more trustworthy. (Microsoft is changing these days.)&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e49ceb0b34118a6b8a4c4a9179ced761/efc66/image-20210529163652186.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.891891891891895%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAAA/0lEQVQoz62RS5KEIBBEuf+Z+hqz663T4A9QFPyRTWLgTLvuisioAiHrWQik2PaIJYSs4FNelktAxH5E/MgZrVt5HH7WWJeAbds+dBwHBC9MPqKvFV4vhUZKtF2Htm2zYjyy4eOp8eymbGishLUa4+gwTVPKI5xzCAlI4MshrLXQ2mAYBrDuEl1d19B9j6ZpMiX3C3Wf9vlr94gxZgkiG2MyNk3vmWb3mrNd1/UjlyYieJ9m9wulVCYrl/JcSk7zKU0IwJp5nmfwPuvLkO7/TQptMWHm+jxzUlJ81X3fL/0RBg+ZXpbzIiVpOUeuq6rK30jOb4WqvCwbOHeOgw0Yb5/6a5X9+4ktAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Bing Webmaster Tool&quot;
+        title=&quot;Bing Webmaster Tool&quot;
+        src=&quot;/static/e49ceb0b34118a6b8a4c4a9179ced761/fcda8/image-20210529163652186.png&quot;
+        srcset=&quot;/static/e49ceb0b34118a6b8a4c4a9179ced761/12f09/image-20210529163652186.png 148w,
+/static/e49ceb0b34118a6b8a4c4a9179ced761/e4a3f/image-20210529163652186.png 295w,
+/static/e49ceb0b34118a6b8a4c4a9179ced761/fcda8/image-20210529163652186.png 590w,
+/static/e49ceb0b34118a6b8a4c4a9179ced761/efc66/image-20210529163652186.png 885w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f46413f82317e136c76c2fad09bcc717/62de4/image-20210529165743729.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.21621621621622%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAAA4ElEQVQoz5VP246CMBTsz7n/6C/54AOuCWQ3BmkbW3oByhovtI6AYjZgVrcnk06nk5MZUp0r/IXyVPbouD1axDqGOZrJ3wDyamGH4lRg7/fYFBvM5h+IRIRDOPT62EveSTZw6igWbAHm2EP7jbcSdkbXONShxlIsscpXiE0M51utqf9XeViWihRREmH99YkkTW78ew2q6LTys+jjGupHgVsOpimkk+3NkKkMeZ1P/KQJDV7BXzzCfTxu/NJOx8deUpUlxE5AKwVrLIzWPeec97rK1eMtpUS23UK3nuADnp0rzBtivtuSQeUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Google Search Console과 연동하여 사이트를 자동 등록 해 준다. &quot;
+        title=&quot;Google Search Console과 연동하여 사이트를 자동 등록 해 준다. &quot;
+        src=&quot;/static/f46413f82317e136c76c2fad09bcc717/fcda8/image-20210529165743729.png&quot;
+        srcset=&quot;/static/f46413f82317e136c76c2fad09bcc717/12f09/image-20210529165743729.png 148w,
+/static/f46413f82317e136c76c2fad09bcc717/e4a3f/image-20210529165743729.png 295w,
+/static/f46413f82317e136c76c2fad09bcc717/fcda8/image-20210529165743729.png 590w,
+/static/f46413f82317e136c76c2fad09bcc717/62de4/image-20210529165743729.png 746w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Since Google Search Console has already been registered, you can simply import it. The site verification process below will also be replaced with Google Search Console verification. However, I will try to manually proceed to see if there are additional changes.&lt;/p&gt;
+&lt;p&gt;The following is the site addition and authentication screen of the Bing search engine.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a7ac0c5d0f642e5bf733a5df521efe3a/dc616/image-20210529164037487.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.75675675675676%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABE0lEQVQoz6WRa07DMBCEfXSOhYTEAbgAUgUF6rRN3Lwcx/Ejdoa1I/qXBCx98q+dnZllF3FDUVb4LM7o5ID0lmXZD82FGMCk1ujUmOkHBTNN+M9j4nYDJ3cV/QlR13BzgA/7SXOspZhCCDjv4f183xQpRoyRWFaW3wkhgmnroCcDay00xU9Ya3Ivf4rsnYPrW8i+w+V6xfH4joJztE0DKWVGqSG73XIw9vzG8fD0go9GrgM/kVNc6mWNHbc7PFQNHl+PKKXCTAKGurTU5Yq/Y9w22KQkmkuBWpQ5WmaQ0KOCsyb3uRUzaTBjTO5pIJEkNCoFa6YsFmaPeQ/egfVdC376okOccC44qvKa3aVt3tldJJffNBdawFEJQlsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20210529164037487&quot;
+        title=&quot;image-20210529164037487&quot;
+        src=&quot;/static/a7ac0c5d0f642e5bf733a5df521efe3a/fcda8/image-20210529164037487.png&quot;
+        srcset=&quot;/static/a7ac0c5d0f642e5bf733a5df521efe3a/12f09/image-20210529164037487.png 148w,
+/static/a7ac0c5d0f642e5bf733a5df521efe3a/e4a3f/image-20210529164037487.png 295w,
+/static/a7ac0c5d0f642e5bf733a5df521efe3a/fcda8/image-20210529164037487.png 590w,
+/static/a7ac0c5d0f642e5bf733a5df521efe3a/efc66/image-20210529164037487.png 885w,
+/static/a7ac0c5d0f642e5bf733a5df521efe3a/dc616/image-20210529164037487.png 933w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There are three options, but it is most convenient to download the XML file and copy it to the main directory. Download the file and &lt;code class=&quot;language-text&quot;&gt;/static&lt;/code&gt;copy it to the blog location.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The downloaded xml file is a file that contains only HASH values, like other search engines.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/28c3bc72064fb26e5777ef3f042299ec/4ff83/image-20210529165154222.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAAA9UlEQVQoz4VQTU/DMAzN/7/Ar9lhV+470EmDbRoZjHy0Tdqo1dImzR5ZRkFUq4j15DjP9rNDjDOYQ93XqPoK53DGiq2weFmg9W16v+JeDZlrNBboTsNHW26XeHh6hA02iYz8tDH5b8JmaKCdxnOeYaM2kFaiDfNTEtPHyx2MydIIvPED1u9rZMcMe7YH02x+5dpFJXdT+/Gjujc4qRN2HztQTkEFxfb4Cirpbe1J/hWk8x2st+iHHt3QJZ8QYhw5f/HpD93FwX+bC+43N/wFaZoG7JNBCIFc5ijyApxzFEUBrXSKy7JEpXVEBVUqSCkT753H9HwBUkUWldxzgHwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Bing 검색엔진 등록 완료&quot;
+        title=&quot;Bing 검색엔진 등록 완료&quot;
+        src=&quot;/static/28c3bc72064fb26e5777ef3f042299ec/fcda8/image-20210529165154222.png&quot;
+        srcset=&quot;/static/28c3bc72064fb26e5777ef3f042299ec/12f09/image-20210529165154222.png 148w,
+/static/28c3bc72064fb26e5777ef3f042299ec/e4a3f/image-20210529165154222.png 295w,
+/static/28c3bc72064fb26e5777ef3f042299ec/fcda8/image-20210529165154222.png 590w,
+/static/28c3bc72064fb26e5777ef3f042299ec/4ff83/image-20210529165154222.png 843w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Immediately after registration, data has not yet been collected by search engines. Therefore, in the initial stage, the following screens can be frequently seen.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 238px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9e72e6233611c76a2222d15848028291/5ea4d/image-20210529165356257.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 94.5945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAAB8UlEQVQ4y6WTiW7aQBCGef9X6ik1SloFmhIwRgmX8YEx+OQ+/86/zVJw2aRVVxp5Z9b7zbkVvKzj8QjTeu2svCr8WV/Y7XbY7/fYbrdKNpuN0vU/r4l2XNHK4XDAarVCkiTqS7iG/s3SnAsgL6/X69Mh9SRNMV8sMJvPjcK7VyPU0SyXS6QCyooCXjTBOEkRxomS0TQ+7UOx+3LOTP4A6tplWQbHceB5LmKBEjDJckRpdgLSwWgyxVOvj0CALI8xQuq6EYWk459F6I8jeCK0ETzw/beBeZ6rpnAVsxk6AwddZwg3HCOQqLgnjOKOQjNQp1xI3WYCooOFgJ/7Azx1eyoyRkkoI+57ngL2XU/dNQLV6Ejt2JRILjMypkggYVp6Q1c5a7RsbE0pE7iQEeEsKmAUIY5j5BI1hTY6Y+O0HopDjs7VCDkurAdrSeGec6nXXnTaji9zVx7qCyBhbAjrp4X1pE07mUskzIDCbMrPTr0UrZwfnOvaxpL801v+33URIdP98fCAdttGs9GAbbdQq1bR7XZUY1qWhcd6Hd++3ik9CAJp1hSW1VT/djrPvyPkZi2jUq3e/7r4WEfbtvH500dYzSZ83xP4PW5uvuDD+3cYyrMkgFA6uLu9xfda7e2Ur9kPpe7quhqbYmpIGW60yfcnJM2/dXUAaBIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20210529165356257&quot;
+        title=&quot;image-20210529165356257&quot;
+        src=&quot;/static/9e72e6233611c76a2222d15848028291/5ea4d/image-20210529165356257.png&quot;
+        srcset=&quot;/static/9e72e6233611c76a2222d15848028291/12f09/image-20210529165356257.png 148w,
+/static/9e72e6233611c76a2222d15848028291/5ea4d/image-20210529165356257.png 238w&quot;
+        sizes=&quot;(max-width: 238px) 100vw, 238px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;However, using Bing&apos;s WebMaster Tool can help you greatly with search engine optimization. You can experience the same function as a combination of Naver Webmaster Tools and Google Analytics. Microsoft seems to be really good at this.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d8deb8d64bdf94d72c8e3153ef0f3496/36c33/image-20210529170057753.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.1891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAAB0klEQVQ4y3VTWW7bQAyd+98mNyiQ/LZBgaCfKdA4jSWNttlXvZLjyE5chwAlakS+IR9J8fzrDdgqlC94+jOTXeBDwLquYDHGNGVZlgXOOWzbhnmekVJCzvnTudBaodbadJrGs5OUsjk4Z+G9b4DzPEFrfQZnv1JKu5zfLIIBOHBXlmv7q7OPNgPyBUIp9QnwGvwStLHxpR+XzNmLPdVbUnKFt+kEWrebmV0O0OgSkR5qCZikhaVgoyPmwcKpgOQzxqNGMBEvncOyRuSQEd4vsWtodo4FZvEtSxEjBRHg29GgJ6B+cOh6i2NnIGePiUA6OpeTRy8dXg/qYr+qFseqKJFSMgPSrWTUWhBpXDJ3mb55dBKRzGUEspkarsZRx1MusM6ffOi8ndE/9mlj46xtQdeqLRFNZTgKtjSLmnT/Fz+8LQEqwjDkJ5znDP9vCHNuiQ6biDNWCsox3GxIKhU6UCUEJGB/o46PtCAWlbrKJfOQt6DzjBEglX8wAUs4NSQQVUzXTscuwncPUHMHqB9IVKIcujagzAlrE+L3sBp8O0j8HE4rOY5j26ZhGGjDpraevFGiyHukv3dAHFBpj0Pw51XcS6uUgQoR3/sFL9rdLHsf8n/tPPbvf7ql8wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20210529170057753&quot;
+        title=&quot;image-20210529170057753&quot;
+        src=&quot;/static/d8deb8d64bdf94d72c8e3153ef0f3496/fcda8/image-20210529170057753.png&quot;
+        srcset=&quot;/static/d8deb8d64bdf94d72c8e3153ef0f3496/12f09/image-20210529170057753.png 148w,
+/static/d8deb8d64bdf94d72c8e3153ef0f3496/e4a3f/image-20210529170057753.png 295w,
+/static/d8deb8d64bdf94d72c8e3153ef0f3496/fcda8/image-20210529170057753.png 590w,
+/static/d8deb8d64bdf94d72c8e3153ef0f3496/efc66/image-20210529170057753.png 885w,
+/static/d8deb8d64bdf94d72c8e3153ef0f3496/36c33/image-20210529170057753.png 946w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/69a8e4e5d4b3be434819dd13890cb85f/d69c4/image-20210529170313271.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.1891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABK0lEQVQ4y51TW07EMAzMuTkUH9yAC/DLN9JKlbZFIY82afownnRd0mwFWixZzcMej8epCsNAX1qT2LquDznMMca162jgr7q2HX1cLtS2LVlr82Hf9w+75Knnt3d6enmlT67gvWP3u0vw2VpiAGSso6ZpSHOnShtL2nma5/ng0zSRMSYnozVhIeuUEi3LQo678rxH/DiOpHquMqVx149uuiA4hJC/MCTIOsbI+5TXiAEBGL7KOZe1w6YUG8lIlEJyv4EMmQ0MrKXQDohEHJaTw16SpIDc4RyMheEBEMKiYv0UcIngM4Zg9StDgB4B1x/A29lcaIihiByngDLJuuV/aSjvqmaIIDwNrGsNUWi72/S8Y4jWzhiWQykZxhh2wLuhyCMt/+O/AMuh1IDf/8n7uX0+6QgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;키워드별 검색 및 노출 현황 분석 &quot;
+        title=&quot;키워드별 검색 및 노출 현황 분석 &quot;
+        src=&quot;/static/69a8e4e5d4b3be434819dd13890cb85f/fcda8/image-20210529170313271.png&quot;
+        srcset=&quot;/static/69a8e4e5d4b3be434819dd13890cb85f/12f09/image-20210529170313271.png 148w,
+/static/69a8e4e5d4b3be434819dd13890cb85f/e4a3f/image-20210529170313271.png 295w,
+/static/69a8e4e5d4b3be434819dd13890cb85f/fcda8/image-20210529170313271.png 590w,
+/static/69a8e4e5d4b3be434819dd13890cb85f/efc66/image-20210529170313271.png 885w,
+/static/69a8e4e5d4b3be434819dd13890cb85f/d69c4/image-20210529170313271.png 1002w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;It provides criteria for evaluating a site from a search engine&apos;s point of view, such as backlinks, keyword research, and SEO reports. Of course, Naver also provides the same functions, so you can have more convenience for optimization by referring to both.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 226px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/85f8af7bc88b52c3a253b0418b364165/5f7d4/image-20210529165529111.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 86.48648648648648%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAABTUlEQVQ4y51Ua4+CMBD0//81Er6IJhjDG+UITxVBpcyxa0o4PXvl+mWXdjvM7E66wriEEOj7niOtYRigs2SdjISxoqQsC2w3G6RpOhX8BToHo/tt22IQwxPwfr+juVw4UgExnYP+Bj4/k/XMUJeJztkkua5rVGXJmyTb8zxkWYbz+azF8K2HdV0hDAPeTI5HGIaB/X7PoK+XVOBvkj/JWwRIye12Q9M0kBaSAK+XVT/8ARiFISxrDZmbpontdsOSdzsbjuNwsTZDar7sV9d1o69KVFXFrGlgl9FSKtMv7uFiyUVRIIpC3jydTsjznFlTTkwpkum1JafpF6z1s4fkQcuyEMcxbNuG67rwfX8a2r8kf2qDtmQh+mmKui+L2jZRxDZ5PB5IkoSlxnGEIAgQjHJp8qpX6A3wer1y8+mABnA4HMbvksGPY64ayCvgN8GxNvz55IYBAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20210529165529111&quot;
+        title=&quot;image-20210529165529111&quot;
+        src=&quot;/static/85f8af7bc88b52c3a253b0418b364165/5f7d4/image-20210529165529111.png&quot;
+        srcset=&quot;/static/85f8af7bc88b52c3a253b0418b364165/12f09/image-20210529165529111.png 148w,
+/static/85f8af7bc88b52c3a253b0418b364165/5f7d4/image-20210529165529111.png 226w&quot;
+        sizes=&quot;(max-width: 226px) 100vw, 226px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Add to Comment System at your blog (ft.Disqus)]]></title><description><![CDATA[Let's comment on the Gatsby blog. So far, I have built my own blog with Gatsby. Download Gatsby, customize it, build it, and upload it to…]]></description><link>https://tech.richwind.co.kr/gatsbyBlogEnglish_5/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlogEnglish_5/</guid><pubDate>Mon, 07 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;lets-comment-on-the-gatsby-blog&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lets-comment-on-the-gatsby-blog&quot; aria-label=&quot;lets comment on the gatsby blog permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Let&apos;s comment on the Gatsby blog.&lt;/h1&gt;
 &lt;p&gt;So far, I have built my own blog with Gatsby. Download Gatsby, customize it, build it, and upload it to Github to make your own blog with Git Page. I also changed the blog icon.&lt;/p&gt;
 &lt;p&gt;But, &lt;strong&gt;let&apos;s&lt;/strong&gt; think &lt;strong&gt;again&lt;/strong&gt; . Gatsby is a static website generator (JAM Stack). This means that you simply create static HTML and load it from a storage such as network storage and display it in a web browser. It means that it cannot receive user information such as receiving information and storing it in a database like a general website.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1682,363 +2039,6 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[gatsby 3 - Registering site into Search Console]]></title><description><![CDATA[For details on search engine registration, please refer to the following. Search engine webmaster registration process description: https…]]></description><link>https://tech.richwind.co.kr/gatsbyBlogEnglish_3 /</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlogEnglish_3 /</guid><pubDate>Mon, 07 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
-&lt;p&gt;For details on search engine registration, please refer to the following.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[Search engine webmaster registration process description]: &lt;a href=&quot;https://www.richwind.co.kr/114&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.richwind.co.kr/114&lt;/a&gt; -[How to use Naver Search Advisor]: &lt;a href=&quot;https://www.richwind.co.kr/114&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.richwind.co.kr/114&lt;/a&gt; -[Search engine optimization Description]: &lt;a href=&quot;https://www.richwind.co.kr/108&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.richwind.co.kr/108&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;create-a-blog-3&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#create-a-blog-3&quot; aria-label=&quot;create a blog 3 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Create a blog 3&lt;/h1&gt;
-&lt;h2 id=&quot;register-in-search-engines&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#register-in-search-engines&quot; aria-label=&quot;register in search engines permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Register in search engines&lt;/h2&gt;
-&lt;h3 id=&quot;google-search-console&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#google-search-console&quot; aria-label=&quot;google search console permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Google Search Console&lt;/h3&gt;
-&lt;p&gt;In my case, since I am not active on social media, Google is the path that can generate the most influx.&lt;/p&gt;
-&lt;p&gt;Therefore, you should pay the most attention to Google Search Console. If you add plastic, you can add the site URL.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 298px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a626fe0c00fee46d2ae5e5d892c31e65/ca501/image-20210529163124564.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 107.43243243243244%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsSAAALEgHS3X78AAACbUlEQVQ4y61TWWuTQRT9flZd8cFHsVZFsGqrYF8EKQpKETRUqLVCDVIXqhV90AptBf9HnrIvJCGr2RNC9vX4nas3tCFLHxw4zJ0zM2fu3MU4f/0uHj5/haXHFswtLcPy+h2ebb7FqvUDtr7uYmXdigerG1jb2sbKSyuWLeuyvv/0BR6tbeLJxhvz7HuxqWWcvHQTMxfnMTM7D9qnLy/gzJUF2bxw+x5Ozd0S7ty1Oya/KGfI0SZ/9uqigHdOzN6AsfPjJz7/A+1PuwfYMfHx+z62v+2Z3IGAvOzJObWV3xf+y94vGPjPw2g2m2i1WqhWq0in08jmcshkMqjX62g2W+D+NNQbDXQ6HdExGuaCoABFK5WKzFzr3jTwLMW63S6MdrsNggu+wlnBtXKc9ewoDDzkv/v9vrhOMpVKIZlMIh6PI5FIoFQqIRaLidfTBr0VQXoQCoXkhXA4DI/Hg2AwKDPjmc1m5bA+Pgoc4qEudEiQzZjwG5wnDb17RJBGr9dDuVwWT2u12iDImihNFjlNAu+M9FBfYMxI8Kter1fix+8zFITP55P4RiIR2aPg8OCvDIp0TMP0c+ABvSS0LHRNz5TXCqCIaJg294xisWAGPYdA8Dfy+bx4QkSjUfj9fgG9CgQCAv6AHuvMpBWLRQGTZxQKBWRMQY8vIV3icDhgs9lElLbdbhfb6XSKTc7lcsmaPLuLGoQIavt0On/bjO4T4+xhTu/TZuIMBvcwmCANuNrHgZacMVygLB0eYOB5YFwhjypsEdQ6ZLtRjElwu90C2uQOF++kAj/SKUw7bZJMPx9RblLLjS3s47TYcTz8A0+IBq+RPsApAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Google Search console 사이트 등록 및 추가&quot;
-        title=&quot;Google Search console 사이트 등록 및 추가&quot;
-        src=&quot;/static/a626fe0c00fee46d2ae5e5d892c31e65/ca501/image-20210529163124564.png&quot;
-        srcset=&quot;/static/a626fe0c00fee46d2ae5e5d892c31e65/12f09/image-20210529163124564.png 148w,
-/static/a626fe0c00fee46d2ae5e5d892c31e65/e4a3f/image-20210529163124564.png 295w,
-/static/a626fe0c00fee46d2ae5e5d892c31e65/ca501/image-20210529163124564.png 298w&quot;
-        sizes=&quot;(max-width: 298px) 100vw, 298px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;It is good to check if the sitemap is properly registered.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d8f9768d0314177fd55ba85087e3b7a8/c6bbc/image-20210529163308078.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 22.972972972972975%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAAoklEQVQY022Q2wrEIAxE/f/PLPhUKrXeNZrtpLuySAPBGCYno2rbNj6Og7XWjBhjSK7x1lv7pRRWOedXSO9dkohEiKi1MvQ4oadGs59SklrFGCfwP1trc/i6LgFD672XHt3LUsmwKFoAxSEuAMDNCoQIJ4AQhxD4Z4D6vaB9X8fPjHOO1b7vUqz/hwXGGIFYawWEGg4FODqHCofPF2HxeZ78AWIjiRBjheZUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;google search console sitemaps&quot;
-        title=&quot;google search console sitemaps&quot;
-        src=&quot;/static/d8f9768d0314177fd55ba85087e3b7a8/fcda8/image-20210529163308078.png&quot;
-        srcset=&quot;/static/d8f9768d0314177fd55ba85087e3b7a8/12f09/image-20210529163308078.png 148w,
-/static/d8f9768d0314177fd55ba85087e3b7a8/e4a3f/image-20210529163308078.png 295w,
-/static/d8f9768d0314177fd55ba85087e3b7a8/fcda8/image-20210529163308078.png 590w,
-/static/d8f9768d0314177fd55ba85087e3b7a8/efc66/image-20210529163308078.png 885w,
-/static/d8f9768d0314177fd55ba85087e3b7a8/c6bbc/image-20210529163308078.png 910w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&quot;naver-webmaster-tools&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#naver-webmaster-tools&quot; aria-label=&quot;naver webmaster tools permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Naver Webmaster Tools&lt;/h3&gt;
-&lt;p&gt;You can check the status of the current search engine registered for your blog.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/84263ee7cc15347c8a522b5d47dc6ce1/54bf4/image-20210529162757507.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 58.78378378378378%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABbklEQVQoz32SiW6EMAxE+f8fRa3KDQm5cP1MvaVVVUuzmxBnGM/Q7fsuy7LIPM/C+okjBOnf3mWYZqGu6/oBr+ezLucstVYppUhKSdjHGO1Z04ak+1Kq/FWtNbkUz+oggYxDSEBQZU4OWP8Gd7IiRD0vehdyFDLauq7WpI+McPgYZBxHG3vbNoNZcBzi/SEcUuola6iyHJCjVAlpcj9yuxVCwCXOfO2+8mKvM1eZ9mwYt2xTdlzwpnrd0v0yRARGD6GxB+d5mpqYqoxKhsI1FNKRzse9Fd5eBlWGj+4hqn3teyqqQpQNa5aQ6vfIGKxrVVeNkJdM0/QKgNRRBdjzMtb4Nqs6RiYY8VCMkCJtQvkKxIPwUHx/hxKMELJBVb5C4YCmVtvLw/ww/r9CFd7h4azEhNTdn8V6f8i12L+r4YwXAlfnSEktyM1CcZWE1OEFHuGd/phSRu773oCX9BxfQRm0nyn4Do9TBcRqSlH8CQfrqY0CGYqCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210529162757507&quot;
-        title=&quot;image-20210529162757507&quot;
-        src=&quot;/static/84263ee7cc15347c8a522b5d47dc6ce1/fcda8/image-20210529162757507.png&quot;
-        srcset=&quot;/static/84263ee7cc15347c8a522b5d47dc6ce1/12f09/image-20210529162757507.png 148w,
-/static/84263ee7cc15347c8a522b5d47dc6ce1/e4a3f/image-20210529162757507.png 295w,
-/static/84263ee7cc15347c8a522b5d47dc6ce1/fcda8/image-20210529162757507.png 590w,
-/static/84263ee7cc15347c8a522b5d47dc6ce1/efc66/image-20210529162757507.png 885w,
-/static/84263ee7cc15347c8a522b5d47dc6ce1/54bf4/image-20210529162757507.png 1007w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;ince it is a stage that has just been created, it is indicated that the site description and graph description are insufficient.&lt;/p&gt;
-&lt;h3 id=&quot;bing-webmaster-tool&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bing-webmaster-tool&quot; aria-label=&quot;bing webmaster tool permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bing Webmaster Tool&lt;/h3&gt;
-&lt;p&gt;Great..! It&apos;s been a while since I&apos;ve entered Bing Webmaster Tools, and it is said that you can use it by loading what is registered in Google Search Console without registering a new one. Microsoft seems to be really good at this. As search engines, Google and Bing are not rivals, but they acknowledge and use what they use. This seems to make Microsoft more trustworthy. (Microsoft is changing these days.)&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e49ceb0b34118a6b8a4c4a9179ced761/efc66/image-20210529163652186.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 41.891891891891895%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAAA/0lEQVQoz62RS5KEIBBEuf+Z+hqz663T4A9QFPyRTWLgTLvuisioAiHrWQik2PaIJYSs4FNelktAxH5E/MgZrVt5HH7WWJeAbds+dBwHBC9MPqKvFV4vhUZKtF2Htm2zYjyy4eOp8eymbGishLUa4+gwTVPKI5xzCAlI4MshrLXQ2mAYBrDuEl1d19B9j6ZpMiX3C3Wf9vlr94gxZgkiG2MyNk3vmWb3mrNd1/UjlyYieJ9m9wulVCYrl/JcSk7zKU0IwJp5nmfwPuvLkO7/TQptMWHm+jxzUlJ81X3fL/0RBg+ZXpbzIiVpOUeuq6rK30jOb4WqvCwbOHeOgw0Yb5/6a5X9+4ktAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Bing Webmaster Tool&quot;
-        title=&quot;Bing Webmaster Tool&quot;
-        src=&quot;/static/e49ceb0b34118a6b8a4c4a9179ced761/fcda8/image-20210529163652186.png&quot;
-        srcset=&quot;/static/e49ceb0b34118a6b8a4c4a9179ced761/12f09/image-20210529163652186.png 148w,
-/static/e49ceb0b34118a6b8a4c4a9179ced761/e4a3f/image-20210529163652186.png 295w,
-/static/e49ceb0b34118a6b8a4c4a9179ced761/fcda8/image-20210529163652186.png 590w,
-/static/e49ceb0b34118a6b8a4c4a9179ced761/efc66/image-20210529163652186.png 885w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/f46413f82317e136c76c2fad09bcc717/62de4/image-20210529165743729.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 41.21621621621622%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAAA4ElEQVQoz5VP246CMBTsz7n/6C/54AOuCWQ3BmkbW3oByhovtI6AYjZgVrcnk06nk5MZUp0r/IXyVPbouD1axDqGOZrJ3wDyamGH4lRg7/fYFBvM5h+IRIRDOPT62EveSTZw6igWbAHm2EP7jbcSdkbXONShxlIsscpXiE0M51utqf9XeViWihRREmH99YkkTW78ew2q6LTys+jjGupHgVsOpimkk+3NkKkMeZ1P/KQJDV7BXzzCfTxu/NJOx8deUpUlxE5AKwVrLIzWPeec97rK1eMtpUS23UK3nuADnp0rzBtivtuSQeUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Google Search Console과 연동하여 사이트를 자동 등록 해 준다. &quot;
-        title=&quot;Google Search Console과 연동하여 사이트를 자동 등록 해 준다. &quot;
-        src=&quot;/static/f46413f82317e136c76c2fad09bcc717/fcda8/image-20210529165743729.png&quot;
-        srcset=&quot;/static/f46413f82317e136c76c2fad09bcc717/12f09/image-20210529165743729.png 148w,
-/static/f46413f82317e136c76c2fad09bcc717/e4a3f/image-20210529165743729.png 295w,
-/static/f46413f82317e136c76c2fad09bcc717/fcda8/image-20210529165743729.png 590w,
-/static/f46413f82317e136c76c2fad09bcc717/62de4/image-20210529165743729.png 746w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Since Google Search Console has already been registered, you can simply import it. The site verification process below will also be replaced with Google Search Console verification. However, I will try to manually proceed to see if there are additional changes.&lt;/p&gt;
-&lt;p&gt;The following is the site addition and authentication screen of the Bing search engine.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a7ac0c5d0f642e5bf733a5df521efe3a/dc616/image-20210529164037487.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.75675675675676%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABE0lEQVQoz6WRa07DMBCEfXSOhYTEAbgAUgUF6rRN3Lwcx/Ejdoa1I/qXBCx98q+dnZllF3FDUVb4LM7o5ID0lmXZD82FGMCk1ujUmOkHBTNN+M9j4nYDJ3cV/QlR13BzgA/7SXOspZhCCDjv4f183xQpRoyRWFaW3wkhgmnroCcDay00xU9Ya3Ivf4rsnYPrW8i+w+V6xfH4joJztE0DKWVGqSG73XIw9vzG8fD0go9GrgM/kVNc6mWNHbc7PFQNHl+PKKXCTAKGurTU5Yq/Y9w22KQkmkuBWpQ5WmaQ0KOCsyb3uRUzaTBjTO5pIJEkNCoFa6YsFmaPeQ/egfVdC376okOccC44qvKa3aVt3tldJJffNBdawFEJQlsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210529164037487&quot;
-        title=&quot;image-20210529164037487&quot;
-        src=&quot;/static/a7ac0c5d0f642e5bf733a5df521efe3a/fcda8/image-20210529164037487.png&quot;
-        srcset=&quot;/static/a7ac0c5d0f642e5bf733a5df521efe3a/12f09/image-20210529164037487.png 148w,
-/static/a7ac0c5d0f642e5bf733a5df521efe3a/e4a3f/image-20210529164037487.png 295w,
-/static/a7ac0c5d0f642e5bf733a5df521efe3a/fcda8/image-20210529164037487.png 590w,
-/static/a7ac0c5d0f642e5bf733a5df521efe3a/efc66/image-20210529164037487.png 885w,
-/static/a7ac0c5d0f642e5bf733a5df521efe3a/dc616/image-20210529164037487.png 933w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;There are three options, but it is most convenient to download the XML file and copy it to the main directory. Download the file and &lt;code class=&quot;language-text&quot;&gt;/static&lt;/code&gt;copy it to the blog location.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The downloaded xml file is a file that contains only HASH values, like other search engines.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/28c3bc72064fb26e5777ef3f042299ec/4ff83/image-20210529165154222.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 35.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAAA9UlEQVQoz4VQTU/DMAzN/7/Ar9lhV+470EmDbRoZjHy0Tdqo1dImzR5ZRkFUq4j15DjP9rNDjDOYQ93XqPoK53DGiq2weFmg9W16v+JeDZlrNBboTsNHW26XeHh6hA02iYz8tDH5b8JmaKCdxnOeYaM2kFaiDfNTEtPHyx2MydIIvPED1u9rZMcMe7YH02x+5dpFJXdT+/Gjujc4qRN2HztQTkEFxfb4Cirpbe1J/hWk8x2st+iHHt3QJZ8QYhw5f/HpD93FwX+bC+43N/wFaZoG7JNBCIFc5ijyApxzFEUBrXSKy7JEpXVEBVUqSCkT753H9HwBUkUWldxzgHwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Bing 검색엔진 등록 완료&quot;
-        title=&quot;Bing 검색엔진 등록 완료&quot;
-        src=&quot;/static/28c3bc72064fb26e5777ef3f042299ec/fcda8/image-20210529165154222.png&quot;
-        srcset=&quot;/static/28c3bc72064fb26e5777ef3f042299ec/12f09/image-20210529165154222.png 148w,
-/static/28c3bc72064fb26e5777ef3f042299ec/e4a3f/image-20210529165154222.png 295w,
-/static/28c3bc72064fb26e5777ef3f042299ec/fcda8/image-20210529165154222.png 590w,
-/static/28c3bc72064fb26e5777ef3f042299ec/4ff83/image-20210529165154222.png 843w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Immediately after registration, data has not yet been collected by search engines. Therefore, in the initial stage, the following screens can be frequently seen.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 238px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9e72e6233611c76a2222d15848028291/5ea4d/image-20210529165356257.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 94.5945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAAB8UlEQVQ4y6WTiW7aQBCGef9X6ik1SloFmhIwRgmX8YEx+OQ+/86/zVJw2aRVVxp5Z9b7zbkVvKzj8QjTeu2svCr8WV/Y7XbY7/fYbrdKNpuN0vU/r4l2XNHK4XDAarVCkiTqS7iG/s3SnAsgL6/X69Mh9SRNMV8sMJvPjcK7VyPU0SyXS6QCyooCXjTBOEkRxomS0TQ+7UOx+3LOTP4A6tplWQbHceB5LmKBEjDJckRpdgLSwWgyxVOvj0CALI8xQuq6EYWk459F6I8jeCK0ETzw/beBeZ6rpnAVsxk6AwddZwg3HCOQqLgnjOKOQjNQp1xI3WYCooOFgJ/7Azx1eyoyRkkoI+57ngL2XU/dNQLV6Ejt2JRILjMypkggYVp6Q1c5a7RsbE0pE7iQEeEsKmAUIY5j5BI1hTY6Y+O0HopDjs7VCDkurAdrSeGec6nXXnTaji9zVx7qCyBhbAjrp4X1pE07mUskzIDCbMrPTr0UrZwfnOvaxpL801v+33URIdP98fCAdttGs9GAbbdQq1bR7XZUY1qWhcd6Hd++3ik9CAJp1hSW1VT/djrPvyPkZi2jUq3e/7r4WEfbtvH500dYzSZ83xP4PW5uvuDD+3cYyrMkgFA6uLu9xfda7e2Ur9kPpe7quhqbYmpIGW60yfcnJM2/dXUAaBIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210529165356257&quot;
-        title=&quot;image-20210529165356257&quot;
-        src=&quot;/static/9e72e6233611c76a2222d15848028291/5ea4d/image-20210529165356257.png&quot;
-        srcset=&quot;/static/9e72e6233611c76a2222d15848028291/12f09/image-20210529165356257.png 148w,
-/static/9e72e6233611c76a2222d15848028291/5ea4d/image-20210529165356257.png 238w&quot;
-        sizes=&quot;(max-width: 238px) 100vw, 238px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;However, using Bing&apos;s WebMaster Tool can help you greatly with search engine optimization. You can experience the same function as a combination of Naver Webmaster Tools and Google Analytics. Microsoft seems to be really good at this.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d8deb8d64bdf94d72c8e3153ef0f3496/36c33/image-20210529170057753.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 64.1891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAAB0klEQVQ4y3VTWW7bQAyd+98mNyiQ/LZBgaCfKdA4jSWNttlXvZLjyE5chwAlakS+IR9J8fzrDdgqlC94+jOTXeBDwLquYDHGNGVZlgXOOWzbhnmekVJCzvnTudBaodbadJrGs5OUsjk4Z+G9b4DzPEFrfQZnv1JKu5zfLIIBOHBXlmv7q7OPNgPyBUIp9QnwGvwStLHxpR+XzNmLPdVbUnKFt+kEWrebmV0O0OgSkR5qCZikhaVgoyPmwcKpgOQzxqNGMBEvncOyRuSQEd4vsWtodo4FZvEtSxEjBRHg29GgJ6B+cOh6i2NnIGePiUA6OpeTRy8dXg/qYr+qFseqKJFSMgPSrWTUWhBpXDJ3mb55dBKRzGUEspkarsZRx1MusM6ffOi8ndE/9mlj46xtQdeqLRFNZTgKtjSLmnT/Fz+8LQEqwjDkJ5znDP9vCHNuiQ6biDNWCsox3GxIKhU6UCUEJGB/o46PtCAWlbrKJfOQt6DzjBEglX8wAUs4NSQQVUzXTscuwncPUHMHqB9IVKIcujagzAlrE+L3sBp8O0j8HE4rOY5j26ZhGGjDpraevFGiyHukv3dAHFBpj0Pw51XcS6uUgQoR3/sFL9rdLHsf8n/tPPbvf7ql8wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210529170057753&quot;
-        title=&quot;image-20210529170057753&quot;
-        src=&quot;/static/d8deb8d64bdf94d72c8e3153ef0f3496/fcda8/image-20210529170057753.png&quot;
-        srcset=&quot;/static/d8deb8d64bdf94d72c8e3153ef0f3496/12f09/image-20210529170057753.png 148w,
-/static/d8deb8d64bdf94d72c8e3153ef0f3496/e4a3f/image-20210529170057753.png 295w,
-/static/d8deb8d64bdf94d72c8e3153ef0f3496/fcda8/image-20210529170057753.png 590w,
-/static/d8deb8d64bdf94d72c8e3153ef0f3496/efc66/image-20210529170057753.png 885w,
-/static/d8deb8d64bdf94d72c8e3153ef0f3496/36c33/image-20210529170057753.png 946w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/69a8e4e5d4b3be434819dd13890cb85f/d69c4/image-20210529170313271.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 64.1891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABK0lEQVQ4y51TW07EMAzMuTkUH9yAC/DLN9JKlbZFIY82afownnRd0mwFWixZzcMej8epCsNAX1qT2LquDznMMca162jgr7q2HX1cLtS2LVlr82Hf9w+75Knnt3d6enmlT67gvWP3u0vw2VpiAGSso6ZpSHOnShtL2nma5/ng0zSRMSYnozVhIeuUEi3LQo678rxH/DiOpHquMqVx149uuiA4hJC/MCTIOsbI+5TXiAEBGL7KOZe1w6YUG8lIlEJyv4EMmQ0MrKXQDohEHJaTw16SpIDc4RyMheEBEMKiYv0UcIngM4Zg9StDgB4B1x/A29lcaIihiByngDLJuuV/aSjvqmaIIDwNrGsNUWi72/S8Y4jWzhiWQykZxhh2wLuhyCMt/+O/AMuh1IDf/8n7uX0+6QgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;키워드별 검색 및 노출 현황 분석 &quot;
-        title=&quot;키워드별 검색 및 노출 현황 분석 &quot;
-        src=&quot;/static/69a8e4e5d4b3be434819dd13890cb85f/fcda8/image-20210529170313271.png&quot;
-        srcset=&quot;/static/69a8e4e5d4b3be434819dd13890cb85f/12f09/image-20210529170313271.png 148w,
-/static/69a8e4e5d4b3be434819dd13890cb85f/e4a3f/image-20210529170313271.png 295w,
-/static/69a8e4e5d4b3be434819dd13890cb85f/fcda8/image-20210529170313271.png 590w,
-/static/69a8e4e5d4b3be434819dd13890cb85f/efc66/image-20210529170313271.png 885w,
-/static/69a8e4e5d4b3be434819dd13890cb85f/d69c4/image-20210529170313271.png 1002w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;It provides criteria for evaluating a site from a search engine&apos;s point of view, such as backlinks, keyword research, and SEO reports. Of course, Naver also provides the same functions, so you can have more convenience for optimization by referring to both.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 226px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/85f8af7bc88b52c3a253b0418b364165/5f7d4/image-20210529165529111.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 86.48648648648648%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAABTUlEQVQ4y51Ua4+CMBD0//81Er6IJhjDG+UITxVBpcyxa0o4PXvl+mWXdjvM7E66wriEEOj7niOtYRigs2SdjISxoqQsC2w3G6RpOhX8BToHo/tt22IQwxPwfr+juVw4UgExnYP+Bj4/k/XMUJeJztkkua5rVGXJmyTb8zxkWYbz+azF8K2HdV0hDAPeTI5HGIaB/X7PoK+XVOBvkj/JWwRIye12Q9M0kBaSAK+XVT/8ARiFISxrDZmbpontdsOSdzsbjuNwsTZDar7sV9d1o69KVFXFrGlgl9FSKtMv7uFiyUVRIIpC3jydTsjznFlTTkwpkum1JafpF6z1s4fkQcuyEMcxbNuG67rwfX8a2r8kf2qDtmQh+mmKui+L2jZRxDZ5PB5IkoSlxnGEIAgQjHJp8qpX6A3wer1y8+mABnA4HMbvksGPY64ayCvgN8GxNvz55IYBAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image-20210529165529111&quot;
-        title=&quot;image-20210529165529111&quot;
-        src=&quot;/static/85f8af7bc88b52c3a253b0418b364165/5f7d4/image-20210529165529111.png&quot;
-        srcset=&quot;/static/85f8af7bc88b52c3a253b0418b364165/12f09/image-20210529165529111.png 148w,
-/static/85f8af7bc88b52c3a253b0418b364165/5f7d4/image-20210529165529111.png 226w&quot;
-        sizes=&quot;(max-width: 226px) 100vw, 226px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby Netlify에 호스팅하기]]></title><description><![CDATA[Gatsby와 찰떡 궁합 이제까지 Gatsby를 통하여 정적사이트를 구축해 보았다. 블로그를 작성하는 Gastby 테마를 활용하여 Github Page에 호스팅 하도록 구축하였다.  Markdown…]]></description><link>https://tech.richwind.co.kr/gatsbyBlog_7/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlog_7/</guid><pubDate>Fri, 04 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gatsby와-찰떡-궁합&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby%EC%99%80-%EC%B0%B0%EB%96%A1-%EA%B6%81%ED%95%A9&quot; aria-label=&quot;gatsby와 찰떡 궁합 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby와 찰떡 궁합&lt;/h1&gt;
 &lt;p&gt;이제까지 Gatsby를 통하여 정적사이트를 구축해 보았다. 블로그를 작성하는 Gastby 테마를 활용하여 Github Page에 호스팅 하도록 구축하였다.  Markdown로 작성한 글을 자신만의 디자인으로 변경되며, Google 등 검색엔진에 등록하고, 사이트의 아이콘/파비콘을 적용하였다. 플랫폼의 지원이 없기에 방문자 분석을 위해서, Google Analytics를 적용하여 분석할 수 있는 수단도 마련하였다. &lt;/p&gt;
 &lt;p&gt;그러나, 여러가지 이유로 &lt;code class=&quot;language-text&quot;&gt;Github Page&lt;/code&gt; 외에 다른 시스템을 활용하여 호스팅하기를 원하는 경우가 발생할 것이다. 우리가 Github Page에 호스팅 한것은 편의상  &lt;code class=&quot;language-text&quot;&gt;Git Repository&lt;/code&gt; 역할과 &lt;code class=&quot;language-text&quot;&gt;Hosting&lt;/code&gt; 역할을 하나로 묶어서 사용한 것이다.
@@ -2422,7 +2422,185 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[블로그에 댓글기능 달아주기 (ft.Disqus 붙이기)]]></title><description><![CDATA[개츠비(Gatsby) 블로그에 댓글 기능을 달아주자. 지금까지 개츠비(Gatsby)로 자신만의 블로그를 구축해 보았다.  Gatsby를 다운받아 커스터마이징하여 빌드(Build)하고, Github에 올려서 Git Page…]]></description><link>https://tech.richwind.co.kr/gatsbyBlog_5/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlog_5/</guid><pubDate>Mon, 31 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;개츠비gatsby-블로그에-댓글-기능을-달아주자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B0%9C%EC%B8%A0%EB%B9%84gatsby-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EB%8C%93%EA%B8%80-%EA%B8%B0%EB%8A%A5%EC%9D%84-%EB%8B%AC%EC%95%84%EC%A3%BC%EC%9E%90&quot; aria-label=&quot;개츠비gatsby 블로그에 댓글 기능을 달아주자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;개츠비(Gatsby) 블로그에 댓글 기능을 달아주자.&lt;/h1&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[배경 이미지 꾸미기 (ft. Parallax)]]></title><description><![CDATA[이 과정에서 HTML/CSS를 적용할 때 2가지 방안이 있다.  Gatsby Source 및 React Component에 적용하는 방법 markdown 문서에 Style 적용하는 방법 첫번째 방법이 CSS…]]></description><link>https://tech.richwind.co.kr/gatsbyBlog_8/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlog_8/</guid><pubDate>Fri, 04 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;div id=&quot;postTop&quot;&gt;&lt;/div&gt;
+이번 포스팅에서 거론할 내용은, 이제 까지 만들어본 Gatsby Blog의 이미지에서 여러 가지 부가적인 꾸밈효과에 관한 내용이다. 대표적으로 배경이미지 처리와 사이드 메뉴를 거론한다. 이 과정에서 CSS가 사용될 것이다. CSS를 처음부터 다루지는 않고 자주/유용하게 사용할 만한 부분을 발췌하여 살펴볼 예정이다. 
+&lt;p&gt;이 과정에서 HTML/CSS를 적용할 때 2가지 방안이 있다. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Gatsby Source 및 React Component에 적용하는 방법&lt;/li&gt;
+&lt;li&gt;markdown 문서에 Style 적용하는 방법&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;첫번째 방법이 CSS적용에 일반적인 방법이다. 지속적으로 페이지에 스타일을 적용할 때는 이 방법을 사용해야 할것이다. 두번째 방법은 한정된 포스팅에서만 일시적으로 사용하는 경우이다. 필자의 경우 이번 포스팅에 한정된 예제를 보여주기 위해서 두번째 방법을 사용하였다. &lt;/p&gt;
+&lt;p&gt;Markdown에서 html/css를 적용하는 방법은 여러가지가 있으나, Gatsby Plugin인 remark에서는 일반 테그를 사용하듯이 사용하면 된다. 단, 주의 사항은 &lt;code class=&quot;language-text&quot;&gt;style&lt;/code&gt; 태그는 한번만 사용이 가능한다. 여러곳에서 style 태그를 사용하면 동작하지 않는다. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;1-배경-이미지를-꾸며-보자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EB%B0%B0%EA%B2%BD-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%EA%BE%B8%EB%A9%B0-%EB%B3%B4%EC%9E%90&quot; aria-label=&quot;1 배경 이미지를 꾸며 보자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 배경 이미지를 꾸며 보자.&lt;/h1&gt;
+&lt;p&gt;이번 포스팅에서 진행할 내용은, 이제까지 만들어본 Gatsby Blog의 이미지에 여러 가지 부가적인 효과를 부여하는 것이다. 특히, 필자의 윗 타이틀 이미지에 적용되어 있는 &quot;스크롤에 따라 흐르는 배경이미지&quot; (Parallax Background)를 적용해 보자. &lt;/p&gt;
+&lt;p&gt;다음은 일반 배경이미지와 Parallax 배경이미지를 비교한 결과이다. 좌측 이미지는 Parallax를 적용하였고, 오른쪽 이미지는 일반 배경이미지를 사용하였다. 스크롤을 움직일때 이미지는 스크롤을 따라서 움직이지 않고 보여지는 이미지 윈도우가 이동하는 것처럼 보인다. &lt;/p&gt;
+&lt;hr&gt;
+&lt;style type=&apos;text/css&apos;&gt;
+.parall{ background-image:url(&quot;https://tech.richwind.co.kr/macbook.jpeg&quot;); width:300px;height:300px; background-attachment: fixed; background-size: cover;}
+.nonParall {background-image:url(&apos;https://source.unsplash.com/random&apos;); width:300px;height:300px; background-size: cover;}
+#mySidenav a {
+  position: fixed;
+  left: -90px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+#mySidenav a:hover {
+  left: 0;
+}
+#about {
+  top: 20px;
+  background-color: #04AA6D;
+}
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+}
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+#contact {
+  top: 200px;
+  background-color: #555
+}
+&lt;/style&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parallax&lt;/th&gt;
+&lt;th&gt;Non Parallax&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;div class=&quot;parall&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;&lt;div class=&quot;nonParall&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Parallax : 배경 이미지 자체는 고정되어 있고, 스크롤에 따라서 보여지는 프레임 윈도우가 이동하는 모양이다. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;이러한 효과는 다음과 같은 CSSf를 적용하여 구현이 가능하다. 중요한 요소는, &lt;code class=&quot;language-text&quot;&gt;background-image&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;background-attachment&lt;/code&gt; 항목이다. background-attachment 항목을 fixed 로 지정함으로써, 스크롤과 무관하게 이미지를 고정한 결과이다. 나머지는 사이즈와 보여지는 이미지의 크기/반복등에 관한 내용이다.&lt;/p&gt;
+&lt;p&gt;*아래 예제에서는 고정된 이미지 보다는 unsplash의 random 이미지 url을 사용하였다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;&amp;lt;style&gt;
+.parallax&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token url&quot;&gt;&lt;span class=&quot;token function&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&quot;https://source.unsplash.com/random&quot;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;min-height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 500px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
+  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 500px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 500px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-attachment&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; fixed&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-position&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; center&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-repeat&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; no-repeat&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-size&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; cover&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&amp;lt;/style&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;참조 : &lt;a href=&quot;https://www.w3schools.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.w3schools.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;2-animation-menu를-만들어-보자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-animation-menu%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%9E%90&quot; aria-label=&quot;2 animation menu를 만들어 보자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2 Animation Menu를 만들어 보자&lt;/h1&gt;
+&lt;p&gt;다음과 같은 페이지에 스크롤과 무관한 사이드메뉴 (Fixed)를 만들수 있다. 아래 이미지는 그 결과물이다. 또한 현재 포스팅에 한정하여 이 메뉴를 적용해 두었다. &lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Animation Menu 아이템 선택 1&lt;/th&gt;
+&lt;th&gt;Animation Menu 아이템 선택 2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 174px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 143.9189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAdCAYAAACqhkzFAAAACXBIWXMAAAsSAAALEgHS3X78AAADSUlEQVRIx62Va2hTZxyHw1AmModW65Sixtbb3Adv4KZMUKsRNG3SpF0TB66Jbthuq61OvLDNXgRtlFpTq20VQSiarl3jwsb2QYwwWXWTTcQL+ElxOrVak3NyktYkffaedINeIprEAw8czuV5f//3/N/3aEp/akLnrSP3vBPduVo+7TyFEu5FPfr6+kj00Og79qNpsTH69GbeaNnExLYyHgSfxW5GkxGazx7kTVcx6d+V8bbrCzLdO3kY9CUvNHU4GOnazPjWUt46U4K2Ywf/pCLMFwlHnFGFW4Tw82HCvpcwdK4HCOMnfFXh/+eafI8q/EwIvxTCYrTu7TwK+f4b7+UlD+0EjdV1mbTGa0w9fpWM5qtoT1zH1CFh/SGI5awiCA5jvbhnaFc4fycck0SiAxJuan9E+uEwmQ09TDvSK+hhklNm4mFJXI/PZKfEyBo/ziv9/RoeKLS33SO9XmZ2k59ZgunH/GTUS0w5IjH9qEzmseHMbJQZXyfR9Ffv8IQfnbxFmjOE7UeF3RdCGL9XWNYSQOdSxAAyUxsktEI8kCwhHXdIovHPOEJb613S6hQ2eITQG6LklyBbz4Wo+6OXuc1yLGliwra/meBUmCNentGoPiyx6KSMVUz+nKb+ErOGoCZPf1HJllO3eac+iLbBzzRRXkaDwphamVEOP2NrJcYJxg5hgpBp9vmpj/dRLu09wK+5Fi5a7HSaP+Zn2zZqvM9w/B6m5rcQ+zt7BlEjcAiqL/ZwoysyaAHEhA+/KobFWURWzify4bugXwr+x8k39s2SjQSXzcOnW4J/xSIk4yqed3Whjh2JRGPzEw+1zGi8pXf/2x0El8xFXv0B8vIFBAwriT7p6n8wGk18c3jgqEZRhTpVuJCAMXuQMOHt6/7OMkJL3yOw+n0CcRImLLy3qxxZCH0ioU9NmLcKnj6JfY6khM5vvqZ07Rq25+exJXcde22foPh8yf+kdu/ZwxqDgbxCC3qzmfU2G0+7u/v7K5mE1VVVGHJysBQWYjaZsBcV0Z2KsKKighwhLBRCkxAWpSqsrKx8vcIqUbLRaMRqtVJQUIDdbk9NWF5eTnZ2Nnq9Hp1OF0uaktDtduPxeGKo516vV6zhSNJt8y9xTbxrmnq7WgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20210609095451154&quot;
+        title=&quot;image-20210609095451154&quot;
+        src=&quot;/static/942885ffb93527324fe2486f60370263/fe9c7/image-20210609095451154.png&quot;
+        srcset=&quot;/static/942885ffb93527324fe2486f60370263/12f09/image-20210609095451154.png 148w,
+/static/942885ffb93527324fe2486f60370263/fe9c7/image-20210609095451154.png 174w&quot;
+        sizes=&quot;(max-width: 174px) 100vw, 174px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 174px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 143.9189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAdCAYAAACqhkzFAAAACXBIWXMAAAsSAAALEgHS3X78AAADc0lEQVRIx63Wb2wTdRzH8cZITNSYGMMMRvxDowZ1zgmbw81AETpZulFamnaI2dbwZ4N1m0SYYQay9sk0ZjFsgxk2CaxhnSTrksUni3GJIphoAvjUECMkOiLOtne9a2mvb3/XGzLpXFjrJd/02uZe9/l+e7+7mtq+/Azr9KfUfX0M61e97L54mngqib5lMhmWupls4z2Ygk08eLaZ+4K7KDrXwW/KX9kvtXxA58QnPBBqYfkXHTwSamVV+ANmlEj+oGP8Y5aFmnlsrI2HR/fxzHgnvxcCbhcJ7x/VwXYB7i8c1FteNvo/JnRN9oqEewTo46HRFp4NH2RGLQDcee5HHh28wtNDV3h88DKlwZ+4qSbzB7ecvMQT/WAeUFnZl6Rk6BY35EwBCUNXKeqTMZ+I8GR/lJLhmAC1/MH6Mz9T1K9gPh4TYEyAUmFgTd8PrDieEGCUlf8CM2haJrv8Fqu7l6ipYeway/sUVp3QE0oClLkRvz3DxdPMB2/vmxoFWHQsLmYYyyZ89R4T3o3+k/A7fw/n6zycdzfxrauB790NRPd7UX1elFZRvgWqbRfx3TtIXfjGQLX0nYQz77dAuZn0+mI0UekNryBXvoz0xktIVcVIlfNL/1zUmyXEip8iOTJsgOl54K+d7QIoJlprIbqxjGhVCdLGtcjWiuyBkuU1pA16lSJvKkfe/Dpy9TqkitXcGhvJBa8LUCl/AeXDA6iBwyj7GlD2vINyYC/K3p3Em1yonT6U5ncNyLLGOJk4Jhk6kwte08F1LxJvF3NpbULpei8LJwZ6SfQcRT3Uinq4g8RH3cj2TUjrSxcHrx9qQxXz0s8e11sV7cnbq4l7bEZ7NVXIWyqN0t9vrkB+uxJJhEgu1LI+Q33QETGfyFtlxvzWPkdsjRmp7HkksZ991UukypbAYqtXkAx+ngv2Hz2Cr6aag85ttNvrCLidRE4OkDp7isTIkPglF6jgMMlTg2i/XJ27bLQ74BG/n+q6rWzzeLA5nOzwevkzMffUu4e1m3Nh+7u72Vpbi8ftxulw4G1sZPbmH8bSS6WMdv6rNC136flFwloBugXoEGCjDs7OGuBcK0u6OXSLhIuBS759BQIB7HY79fX1uFwuvGKGBYFdXV1YLBZsNhtWqzWbtCBwamqKiYkJJicnCYfDTE9PkxYDz/e/zd8sJa14eIANgQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20210609095507029&quot;
+        title=&quot;image-20210609095507029&quot;
+        src=&quot;/static/7cb4ac920e23ec9f72a41c04b61ea9ea/fe9c7/image-20210609095507029.png&quot;
+        srcset=&quot;/static/7cb4ac920e23ec9f72a41c04b61ea9ea/12f09/image-20210609095507029.png 148w,
+/static/7cb4ac920e23ec9f72a41c04b61ea9ea/fe9c7/image-20210609095507029.png 174w&quot;
+        sizes=&quot;(max-width: 174px) 100vw, 174px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div&gt;
+&lt;div id=&quot;mySidenav&quot;  &gt;   &lt;a href=&quot;#&quot; id=&quot;about&quot;&gt;About&lt;/a&gt;   &lt;a href=&quot;#postTop&quot; id=&quot;blog&quot;&gt;Blog&lt;/a&gt;   &lt;a href=&quot;#&quot; id=&quot;projects&quot;&gt;Projects&lt;/a&gt;   &lt;a href=&quot;#&quot; id=&quot;contact&quot;&gt;Contact&lt;/a&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;사용되는 CSS와 HTML은 다음과 같다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;#Sidenav a&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; fixed&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; -90px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0.3s&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 15px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 100px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;text-decoration&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; none&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 20px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; white&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0 5px 5px 0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;#Sidenav a:hover&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;#about&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 20px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #04AA6D&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;#blog&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 80px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #2196F3&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;#projects&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 140px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #f44336&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;#contact&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 200px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #555
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 CSS에서 &lt;code class=&quot;language-text&quot;&gt;position&lt;/code&gt; 속성값에 따라서 메뉴가 출력되는 위치가 달라진다. 페이지의 가장 위쪽에 메뉴가 표현되기를 원할 경우는 &lt;code class=&quot;language-text&quot;&gt;absolute&lt;/code&gt;를 추천한다. 필자는 스크롤을 내려도 메뉴가 위치를 유지하고  따라오는 것을 원했기 때문에 &lt;code class=&quot;language-text&quot;&gt;fixed&lt;/code&gt;를 적용하였다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;Sidenav&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;#&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;about&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;About&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;#&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;blog&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Blog&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;#&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;projects&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Projects&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;#&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;contact&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Contact&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[블로그에 댓글기능 달아주기 (ft.Disqus 붙이기)]]></title><description><![CDATA[개츠비(Gatsby) 블로그에 댓글 기능을 달아주자. 지금까지 개츠비(Gatsby)로 자신만의 블로그를 구축해 보았다.  Gatsby를 다운받아 커스터마이징하여 빌드(Build)하고, Github에 올려서 Git Page…]]></description><link>https://tech.richwind.co.kr/gatsbyBlog_5/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlog_5/</guid><pubDate>Mon, 31 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;개츠비gatsby-블로그에-댓글-기능을-달아주자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B0%9C%EC%B8%A0%EB%B9%84gatsby-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EB%8C%93%EA%B8%80-%EA%B8%B0%EB%8A%A5%EC%9D%84-%EB%8B%AC%EC%95%84%EC%A3%BC%EC%9E%90&quot; aria-label=&quot;개츠비gatsby 블로그에 댓글 기능을 달아주자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;개츠비(Gatsby) 블로그에 댓글 기능을 달아주자.&lt;/h1&gt;
 &lt;p&gt;지금까지 개츠비(Gatsby)로 자신만의 블로그를 구축해 보았다.  Gatsby를 다운받아 커스터마이징하여 빌드(Build)하고, Github에 올려서 Git Page로 자신만의 블로그로 만들었다. 블로그 아이콘도 변경 해 주었다. &lt;/p&gt;
 &lt;p&gt;그런데, &lt;strong&gt;다시&lt;/strong&gt; 생각해 보자. 개츠비(Gatsby)는 정적 웹사이트 생성기(JAM Stack)이다. 이 말은, 정적 HTML로 만들어서 단순히 네트워크 스토리지와 같은 저장소에서 불러와서 웹브라우저로 보여주는 것만 한다는 이야기다. 일반적인 웹사이트처럼 정보를 받아서 데이터베이트(DB)에 저장하는 등의 사용자 정보를 받을 수 없다는 것이다. &lt;/p&gt;
 &lt;blockquote&gt;
@@ -3196,7 +3374,7 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[웹사이트 아이콘 (Favicon) 만들기]]></title><description><![CDATA[…]]></description><link>https://tech.richwind.co.kr/gatsbyBlog_4/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlog_4/</guid><pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;자신만의-블로그웹사이트에-아이콘을-입히자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%90%EC%8B%A0%EB%A7%8C%EC%9D%98-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%97%90-%EC%95%84%EC%9D%B4%EC%BD%98%EC%9D%84-%EC%9E%85%ED%9E%88%EC%9E%90&quot; aria-label=&quot;자신만의 블로그웹사이트에 아이콘을 입히자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;자신만의 블로그/웹사이트에 아이콘을 입히자.&lt;/h1&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[웹사이트 아이콘 파비콘 (Favicon) 만들기 - 파비콘 마스터 하기]]></title><description><![CDATA[…]]></description><link>https://tech.richwind.co.kr/gatsbyBlog_4/</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlog_4/</guid><pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;자신만의-블로그웹사이트에-아이콘을-입히자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%90%EC%8B%A0%EB%A7%8C%EC%9D%98-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%97%90-%EC%95%84%EC%9D%B4%EC%BD%98%EC%9D%84-%EC%9E%85%ED%9E%88%EC%9E%90&quot; aria-label=&quot;자신만의 블로그웹사이트에 아이콘을 입히자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;자신만의 블로그/웹사이트에 아이콘을 입히자.&lt;/h1&gt;
 &lt;p&gt;네이버, 티스토리 등 블로그 플랫폼을 이용하지 않고 자신만의 블로그와 웹사이트를 만들기 시작했다면, 이제 차츰 부족함을 느끼기 시작할 것이다. 우리가 블로그 플랫폼에서 제공하는 다양한 서비스를 알게 모르게 누리고 있었다는 사실을 인지한다. 처음에는 별거 아니게 생각했던것들이 눈에 거슬리기 시작한다. &lt;/p&gt;
 &lt;p&gt;가장 처음 눈에 들어온 것은 아이콘이다. 이쁘지는 않더라도, 저렇게 비활성화 된듯하게 보이는 아이콘은 좀 아니지라는 생각이 든다. &lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -3510,9 +3688,74 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;해당 이미지를 PNG 또는 JPG 등의 이미지 파일로 저장한다. 아이콘을 PNG자체로 사용할 수도 있지만, 범용성을 위해서 ICO파일로 만들어 주자. &lt;/p&gt;
-&lt;h1 id=&quot;아이콘icon-파일로-변환&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%95%84%EC%9D%B4%EC%BD%98icon-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EB%B3%80%ED%99%98&quot; aria-label=&quot;아이콘icon 파일로 변환 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;아이콘(Icon) 파일로 변환&lt;/h1&gt;
-&lt;p&gt;PNG 등의 이미지와는 다른 icon 파일로 변환 해야 주어야 한다. icon의 사이즈는 16x16, or 32x32이다. 구글에서 &lt;code class=&quot;language-text&quot;&gt;favicon 생성&lt;/code&gt;으로 검색하면 많은 사이트들이 보여지기 때문에 이중 하나를 선택해서 파일을 업로드 해서 변환 하면, 된다. 여기에서는 그중 예를 하나 들어 보겠다. &lt;/p&gt;
+&lt;p&gt;해당 이미지를 PNG 또는 JPG 등의 이미지 파일로 저장한다. 아이콘을 PNG자체로 사용할 수도 있지만, 범용성을 위해서 ICO파일로 만들어야 할 때도 있다.  다음은 파일 확장자별 파비콘(Favicon) 지원에 대한 표이다. (위키피디아 참조)&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8798ccbd8ab9c25ecda3fbb6db8e1d63/38cea/image-20210609114454467.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.78378378378378%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABx0lEQVQozz2Q/U8SARyH+fOz0jzuuOOOCLW11bKksCCTlkkvLDXk5V6QAwHBe0U8xCZzPZ1r64dn+/zw/Tyf7ZvodPv0h2Ncb4rnRv/xY5zgkrNJhNkfc9S0aNRP0K0uY++C0I8Igxnu3a33L4f+jETbHnA6cOi553zvtqj2DKpdnerQwGgZWJ9a6Lt1Gj/qlM0a9eYpreYI07MxQ5tvtk5tZGEGNrrfIXEWWyfhguZ1gweegHShIIYKy1OJfFvjV1mmWlL4rD9GiJJsBzu8G++Rvcmi3aokAxHpMk3mVkNbqCTMfsBwNOdgesxKeCeUScXSR5HEq57Kzq5Isayybarcv0pS/ClS3pficgYJlSVHYGWuIcc59ScWWoOQbn/GvnPIsici+AqCo3BvmqLyJcNsSWKyrOHn0uwVZMaygieksT5k4leoVPIiB+81rHhU/xgLe+dTfP+GWnTMkreKEMqsBjIPQ5F1R2OrJfGiKfOmo/CsnuKlkWJTlyj1NEpdlc2jJK+bKgU7w3ZMou9cEAS/aV3ppCcqT6Y51mKUeZavtXWCpzn8jSyNygariyxGMYf7fI2e95Z2kOfE3cKeFLCjXQbXZf4CpZTTTiQIrnkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20210609114454467&quot;
+        title=&quot;image-20210609114454467&quot;
+        src=&quot;/static/8798ccbd8ab9c25ecda3fbb6db8e1d63/fcda8/image-20210609114454467.png&quot;
+        srcset=&quot;/static/8798ccbd8ab9c25ecda3fbb6db8e1d63/12f09/image-20210609114454467.png 148w,
+/static/8798ccbd8ab9c25ecda3fbb6db8e1d63/e4a3f/image-20210609114454467.png 295w,
+/static/8798ccbd8ab9c25ecda3fbb6db8e1d63/fcda8/image-20210609114454467.png 590w,
+/static/8798ccbd8ab9c25ecda3fbb6db8e1d63/38cea/image-20210609114454467.png 678w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;크롬 브라우저의 경우, icon 파일의 사이즈가 &lt;code class=&quot;language-text&quot;&gt;48 x 48px&lt;/code&gt; 의 배수로 된 사이즈를 요구한다. 이 사이즈를 지키지 않으면 정상 출력되지 않는다. 다음은 크롬 브라우저 공식웹사이트의 가이드 라인이다. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6ef26fdb94cdb4efc5ec8532295be59d/c8e86/image-20210609115016581.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 23.64864864864865%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA4ElEQVQY033OzW6DMBAEYN7/sXrurVUwdkBgYxwbnEpVUPlZmC4mSm89fBrv7hycaW3QdY51CCFAm7/ZOYe2bWFdgL0NLKLzzPl0O3oxxlff2g6Zkgr5JUdZltBaoxAFlFLJsatYfjUQdUhk00NWBlJKFIVEVVUQQqS+4c9kt35AH7/gfMD4M4F2JAttp5WwrstpmUGcRITt6PDtQNuzx/tsMgKzK7EOBnS3oMg5PPF7//bAGLE/4iv3x5BgPKV3miOy8fMN0/Udq82xtBfM+uPUnEleYbs32GLNmn/UqfcLjIR3RvFIJQMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20210609115016581&quot;
+        title=&quot;image-20210609115016581&quot;
+        src=&quot;/static/6ef26fdb94cdb4efc5ec8532295be59d/fcda8/image-20210609115016581.png&quot;
+        srcset=&quot;/static/6ef26fdb94cdb4efc5ec8532295be59d/12f09/image-20210609115016581.png 148w,
+/static/6ef26fdb94cdb4efc5ec8532295be59d/e4a3f/image-20210609115016581.png 295w,
+/static/6ef26fdb94cdb4efc5ec8532295be59d/fcda8/image-20210609115016581.png 590w,
+/static/6ef26fdb94cdb4efc5ec8532295be59d/c8e86/image-20210609115016581.png 758w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이러한 사이즈에 고민하기 싫은 경우, SVG 파일을 사용하면 된다. 그러나, SVG는 몇몇 브라우저에서 동작하지 않는 경우가 있다. 따라서, 해법은 여러개를 사용하는 것이다. .ico, png, svg 파일을 복수개로 사용하면 된다. &lt;/p&gt;
+&lt;h1 id=&quot;a-아이콘icon-파일로-변환&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#a-%EC%95%84%EC%9D%B4%EC%BD%98icon-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EB%B3%80%ED%99%98&quot; aria-label=&quot;a 아이콘icon 파일로 변환 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;a) 아이콘(Icon) 파일로 변환&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;브라우저 별로 지원하는 파비콘/아이콘 확장자에 차이가 있다. 대부분 .ico, .png 는 지원한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;PNG 파일을 그대로 사용할 수도 있으며, 경우에 따라서는 .ico파일로 변환이 필요하기도 하다.  icon의 사이즈는 16x16, or 32x32이다. 구글에서 &lt;code class=&quot;language-text&quot;&gt;favicon 생성&lt;/code&gt;으로 검색하면 많은 사이트들이 보여지기 때문에 이중 하나를 선택해서 파일을 업로드 해서 변환 하면, 된다. 여기에서는 그중 예를 하나 들어 보겠다. &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;추천 ICON 생성 사이트 &lt;/p&gt;
 &lt;/blockquote&gt;
@@ -3620,15 +3863,76 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;svg-파일-변환하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#svg-%ED%8C%8C%EC%9D%BC-%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0&quot; aria-label=&quot;svg 파일 변환하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;SVG 파일 변환하기&lt;/h1&gt;
+&lt;p&gt;구글 검색창에서 &lt;code class=&quot;language-text&quot;&gt;png SVG 파일 변환&lt;/code&gt; 이라고 검색하면 여러 사이트가 검색된다. 그 중 하나에 접속하여 변환해 주자. 파일을 업로드 하고 변환을 적용하면 된다. 기존 .ico 파일과는 별도록 &lt;code class=&quot;language-text&quot;&gt;favicon.svg&lt;/code&gt; 로 적용하면 된다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;대표 : &lt;a href=&quot;https://cdkm.com/kr/png-to-svg&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://cdkm.com/kr/png-to-svg&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/353a0d9607aa6586ec35b339c272cbfa/6da96/image-20210609115315718.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 17.567567567567565%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAzklEQVQY002Py04DMQxF5/NYd90tsIMvYsOHICoEErBki9qybasp02kyeTg+OKFUJDqybOte+XYhCymXM9F6kUI2piSENvuP7QHZ7kifS9Lqi7Rcn+k+tsohwhAUl6EomK6Z9d8Hk6p9GnUXQ2qG4e6e4WKGu77FXd0wzi8ZZnO6/XGi95mNV/pjZHQeMWVRZQzCxtl8UgYX8SG2FKWar9b4x2d2i3f6pzf2DwvSyysdavFOsUupCKr1HrvKSjLzbIjttJTf+V81co1/or4fF6IwMNgmZvAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image-20210609115315718&quot;
+        title=&quot;image-20210609115315718&quot;
+        src=&quot;/static/353a0d9607aa6586ec35b339c272cbfa/fcda8/image-20210609115315718.png&quot;
+        srcset=&quot;/static/353a0d9607aa6586ec35b339c272cbfa/12f09/image-20210609115315718.png 148w,
+/static/353a0d9607aa6586ec35b339c272cbfa/e4a3f/image-20210609115315718.png 295w,
+/static/353a0d9607aa6586ec35b339c272cbfa/fcda8/image-20210609115315718.png 590w,
+/static/353a0d9607aa6586ec35b339c272cbfa/efc66/image-20210609115315718.png 885w,
+/static/353a0d9607aa6586ec35b339c272cbfa/6da96/image-20210609115315718.png 922w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&quot;파비콘favicon-적용-하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8C%8C%EB%B9%84%EC%BD%98favicon-%EC%A0%81%EC%9A%A9-%ED%95%98%EA%B8%B0&quot; aria-label=&quot;파비콘favicon 적용 하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;파비콘(Favicon) 적용 하기&lt;/h1&gt;
 &lt;p&gt;자. 이제 자신의 웹사이트의  &lt;Head&gt; 태그 안에 아래 내용을 추가해 주면, 파비콘 적용이 완료 된다. &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;shortcut icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;favicon.ico&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;favicon.ico&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;shortcut icon&lt;/code&gt; 과 &lt;code class=&quot;language-text&quot;&gt;icon&lt;/code&gt;  두개를 삽입한 이유는 브라우저별로 참조하는 키워드가 다르기 때문이다. &lt;/p&gt;
+&lt;p&gt;전술한 바와 같이 브라우저 별로 인식하는 호환성에서 소폭 차이가 있다. 따라서, &lt;code class=&quot;language-text&quot;&gt;shortcut icon&lt;/code&gt; 과 &lt;code class=&quot;language-text&quot;&gt;icon&lt;/code&gt;  두개 이상을  복합적으로 사용한다. &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;image/png&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;favicon.ico&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;sizes&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;16x16&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;경우에 따라서는, 위 코드처럼 사이즈를 명시하는 경우도 있다. &lt;/p&gt;
+&lt;p&gt;필자는, SVG파일 복수 적용하기 위해서 다음과 같이 추가 하였다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;icon&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;image/svg+xml&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;favicon.svg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;추가적으로 다음과 같은 Favicon 적용 구문들이 있으니, 다양한 환경에 대응하기 위해 참조하기 바란다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;shortcut icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+ &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://example.com/myicon.ico&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+ &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;image/vnd.microsoft.icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+ &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://example.com/image.ico&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;image/x-icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+ &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://example.com/image.ico&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+ &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://example.com/image.ico&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;image/gif&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+ &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://example.com/image.gif&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;image/png&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+ &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://example.com/image.png&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;image/svg+xml&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+ &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://example.com/image.svg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h1 id=&quot;브라우저-디펜던시&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EB%94%94%ED%8E%9C%EB%8D%98%EC%8B%9C&quot; aria-label=&quot;브라우저 디펜던시 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;브라우저 디펜던시&lt;/h1&gt;
 &lt;h2 id=&quot;gatsby&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby&quot; aria-label=&quot;gatsby permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby&lt;/h2&gt;
 &lt;p&gt;일반적인 웹사이트/블로그의 경우, &lt;code class=&quot;language-text&quot;&gt;favicon.ico&lt;/code&gt; 파일을 &lt;code class=&quot;language-text&quot;&gt;/public&lt;/code&gt;에 넣어 주면 된다. 그러나, Gatsby를 사용하는 경우에 테마(Theme) 또는 플러그인(Plugins)에 의하여 이러한 환경이 변화되어 있을 경우도 있다. 따라서, Gatsby의 경우에는 다음과 같은 액션을 추가로 진행할 필요가 있다. &lt;/p&gt;
 &lt;h3 id=&quot;code-classlanguage-textstaticcode-폴더에-code-classlanguage-textfaviconicocode-파일-복사하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-textstaticcode-%ED%8F%B4%EB%8D%94%EC%97%90-code-classlanguage-textfaviconicocode-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0&quot; aria-label=&quot;code classlanguage textstaticcode 폴더에 code classlanguage textfaviconicocode 파일 복사하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;/static&lt;/code&gt; 폴더에 &lt;code class=&quot;language-text&quot;&gt;favicon.ico&lt;/code&gt; 파일 복사하기&lt;/h3&gt;
@@ -3704,101 +4008,4 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Online Jupyter Notebook for Python]]></title><description><![CDATA[Online Jupyter Notebook for Python Google Colab vs. MS Azure Notebook vs. Binder Online 환경에서 데이터 분석을 진행할 수 있는 대표적인 플랫폼을 비교/평가 해 보았다.  Google…]]></description><link>https://tech.richwind.co.kr/Online Jupyter Notebook for Python/</link><guid isPermaLink="false">https://tech.richwind.co.kr/Online Jupyter Notebook for Python/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;online-jupyter-notebook-for-python&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#online-jupyter-notebook-for-python&quot; aria-label=&quot;online jupyter notebook for python permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Online Jupyter Notebook for Python&lt;/h1&gt;
-&lt;h2 id=&quot;google-colab-vs-ms-azure-notebook-vs-binder&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#google-colab-vs-ms-azure-notebook-vs-binder&quot; aria-label=&quot;google colab vs ms azure notebook vs binder permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Google Colab vs. MS Azure Notebook vs. Binder&lt;/h2&gt;
-&lt;p&gt;Online 환경에서 데이터 분석을 진행할 수 있는 대표적인 플랫폼을 비교/평가 해 보았다. &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Google Colab&lt;/li&gt;
-&lt;li&gt;MS Azure Notebook&lt;/li&gt;
-&lt;li&gt;Binder&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;다양한 측면에서 비교를 할 수 있지만, 진정으로 크리티컬한 부분에서 놓칠 수 없는 비교점이 있다. &lt;/p&gt;
-&lt;h2 id=&quot;google-colab&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#google-colab&quot; aria-label=&quot;google colab permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Google Colab&lt;/h2&gt;
-&lt;p&gt;제공되는 리소스는 &lt;code class=&quot;language-text&quot;&gt;2 CPU, 12G Mem 할당&lt;/code&gt; 으로 상당히 준수하다. 게다가 GPU를 제공해 주고 있어서, GPU 모드로 ML 연산을 계산할 수 있다. &lt;/p&gt;
-&lt;p&gt;Google Colab에서 제공하는 리소스 스펙&lt;/p&gt;
-&lt;p&gt;CPU 스펙&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!cat &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;proc&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cpuinfo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;processor	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-vendor_id	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; GenuineIntel
-cpu family	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
-model		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;79&lt;/span&gt;
-model name	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Intel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Xeon&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; CPU @ &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;20GHz
-stepping	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-microcode	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0x1&lt;/span&gt;
-cpu MHz		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2200.000&lt;/span&gt;
-cache size	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56320&lt;/span&gt; KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Memory 스펙&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!free &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;              total        used        free      shared  buff&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cache   available
-Mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            12G        &lt;span class=&quot;token number&quot;&gt;3.&lt;/span&gt;0G        &lt;span class=&quot;token number&quot;&gt;7.&lt;/span&gt;4G        908K        &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;3G         11G
-Swap&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&quot;장점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%A5%EC%A0%90&quot; aria-label=&quot;장점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;장점&lt;/h3&gt;
-&lt;p&gt;웹환경에서 실행하여줌에도 불구하고, GPU를 지원해줌&lt;/p&gt;
-&lt;p&gt;ML을 구동시키기에 적당함&lt;/p&gt;
-&lt;h3 id=&quot;단점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8B%A8%EC%A0%90&quot; aria-label=&quot;단점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;단점&lt;/h3&gt;
-&lt;p&gt;UI가 몹시 레거시함&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/Users/audit01/Library/Application%20Support/typora-user-images/image-20200515152247703.png&quot; alt=&quot;image-20200515152247703&quot;&gt;&lt;/p&gt;
-&lt;p&gt;개인차이가 있을 수 있겠으나, UI 좀 덜 아름답다. 뭔가 과거의 파워빌더(PowerBuilder)를 보는 느낌이랄까?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://k.kakaocdn.net/dn/ca9bkW/btqEcnRjWTI/KRiP5gdMZI9ILBK8KEBDF0/img.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
-&lt;p&gt;실행할 때 마다 차이가 존재한다. 2~3번째 실행 할 때는 1.83초&lt;/p&gt;
-&lt;h2 id=&quot;microsoft-azure-notebook&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#microsoft-azure-notebook&quot; aria-label=&quot;microsoft azure notebook permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Microsoft Azure Notebook&lt;/h2&gt;
-&lt;p&gt;MS Azure Notebook의 제공되는 리소스의 스펙&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!cat &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;proc&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cpuinfo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;processor	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-vendor_id	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; GenuineIntel
-cpu family	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
-model		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;79&lt;/span&gt;
-model name	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Intel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Xeon&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; CPU E5&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2673&lt;/span&gt; v4 @ &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;30GHz
-stepping	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
-microcode	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0xffffffff&lt;/span&gt;
-cpu MHz		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2294.689&lt;/span&gt;
-cache size	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;51200&lt;/span&gt; KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!free &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;              total        used        free      shared  buff&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cache   available
-Mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;           &lt;span class=&quot;token number&quot;&gt;3.&lt;/span&gt;8G        568M        &lt;span class=&quot;token number&quot;&gt;3.&lt;/span&gt;1G         17M        198M        &lt;span class=&quot;token number&quot;&gt;3.&lt;/span&gt;0G
-Swap&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&quot;장점-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%A5%EC%A0%90-1&quot; aria-label=&quot;장점 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;장점&lt;/h3&gt;
-&lt;p&gt;UI 측면에서 Jupiter Notebook 그대로를 사용하고 익숙할 뿐만아니라, UI의 편의성과 활용성이 더욱 사용하기 좋음&lt;/p&gt;
-&lt;p&gt;Python 버전별로 커널을 생성하기에 편리하며, Python 외 R 등 환경도 잘 디플로이 되어 있음&lt;/p&gt;
-&lt;p&gt;다양한 강좌들을 포함하고 있어서, 공부하는데 많은 도움이 됨&lt;/p&gt;
-&lt;h3 id=&quot;단점-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8B%A8%EC%A0%90-1&quot; aria-label=&quot;단점 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;단점&lt;/h3&gt;
-&lt;p&gt;파일 접근 할 때 속도가 많이 느림.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://k.kakaocdn.net/dn/eqquwR/btqEdw7BsC4/0FUvpp7iezQhnC2p6ejoRK/img.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
-&lt;p&gt;두번째 및 3번째 실행 시 15.37초&lt;/p&gt;
-&lt;h2 id=&quot;binder&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#binder&quot; aria-label=&quot;binder permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Binder&lt;/h2&gt;
-&lt;p&gt;자체적으로 notebook을 작성하여 사용하는 방식이 아닌, GitHub에 있는 Repository를 가져와 서 실행 시켜주는 방식이다. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mybinder.org/static/logo.svg?v=f9f0d927b67cc9dc99d788c822ca21c0&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/Users/audit01/Library/Application%20Support/typora-user-images/image-20200515153550284.png&quot; alt=&quot;image-20200515153550284&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!cat &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;proc&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cpuinfo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;processor	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;71&lt;/span&gt;
-vendor_id	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; GenuineIntel
-cpu family	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
-model		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;85&lt;/span&gt;
-model name	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Intel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Xeon&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Gold &lt;span class=&quot;token number&quot;&gt;6140&lt;/span&gt; CPU @ &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;30GHz
-stepping	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
-microcode	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0x2000064&lt;/span&gt;
-cpu MHz		&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1000.027&lt;/span&gt;
-cache size	&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;25344&lt;/span&gt; KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Memory 스펙&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!free &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;              total        used        free      shared  buff&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cache   available
-Mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;           754G         52G        101G         15M        600G        705G
-Swap&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&quot;gitpod&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gitpod&quot; aria-label=&quot;gitpod permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GitPod&lt;/h2&gt;
-&lt;p&gt;CPU 스펙&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!cat &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;proc&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cpuinfo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;processor       &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;
-vendor_id       &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; GenuineIntel
-cpu family      &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
-model           &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;79&lt;/span&gt;
-model name      &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Intel&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Xeon&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;R&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; CPU @ &lt;span class=&quot;token number&quot;&gt;2.&lt;/span&gt;20GHz
-stepping        &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-microcode       &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0x1&lt;/span&gt;
-cpu MHz         &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2200.000&lt;/span&gt;
-cache size      &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56320&lt;/span&gt; KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;M&lt;/p&gt;
-&lt;p&gt;Memory 스펙&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;!free &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;              total        used        free      shared  buff&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cache   available
-Mem&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;           58Gi       &lt;span class=&quot;token number&quot;&gt;8.&lt;/span&gt;3Gi        23Gi       &lt;span class=&quot;token number&quot;&gt;4.&lt;/span&gt;0Mi        27Gi        51Gi
-Swap&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;          &lt;span class=&quot;token number&quot;&gt;0B&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
