@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[IT Tech Blog | Feed]]></title><description><![CDATA[IT Tech Blog for Data Sicentists. It deals with Data Science and machine learning, and Python. We are also concering about frontend such as javascript, react, react-native, and so on.]]></description><link>https://tech.richwind.co.kr</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Jun 2021 03:03:24 GMT</lastBuildDate><item><title><![CDATA[gatsby 3 - Registering site into Search Console]]></title><description><![CDATA[For details on search engine registration, please refer to the following. Search engine webmaster registration process description: https…]]></description><link>https://tech.richwind.co.kr/gatsbyBlogEnglish_3 /</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlogEnglish_3 /</guid><pubDate>Mon, 07 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[IT Tech Blog | Feed]]></title><description><![CDATA[IT Tech Blog for Data Sicentists. It deals with Data Science and machine learning, and Python. We are also concering about frontend such as javascript, react, react-native, and so on.]]></description><link>https://tech.richwind.co.kr</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Jun 2021 05:23:01 GMT</lastBuildDate><item><title><![CDATA[gatsby 3 - Registering site into Search Console]]></title><description><![CDATA[For details on search engine registration, please refer to the following. Search engine webmaster registration process description: https…]]></description><link>https://tech.richwind.co.kr/gatsbyBlogEnglish_3 /</link><guid isPermaLink="false">https://tech.richwind.co.kr/gatsbyBlogEnglish_3 /</guid><pubDate>Mon, 07 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;For details on search engine registration, please refer to the following.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[Search engine webmaster registration process description]: &lt;a href=&quot;https://www.richwind.co.kr/114&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.richwind.co.kr/114&lt;/a&gt; -[How to use Naver Search Advisor]: &lt;a href=&quot;https://www.richwind.co.kr/114&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.richwind.co.kr/114&lt;/a&gt; -[Search engine optimization Description]: &lt;a href=&quot;https://www.richwind.co.kr/108&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.richwind.co.kr/108&lt;/a&gt;&lt;/li&gt;
@@ -2469,6 +2469,25 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
 #contact {
   top: 200px;
   background-color: #555
+}
+.headerContainer {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
 }
 &lt;/style&gt;
 &lt;table&gt;
